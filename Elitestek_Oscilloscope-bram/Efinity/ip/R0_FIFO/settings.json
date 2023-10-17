@@ -1,0 +1,45 @@
+{
+    "args": [
+        "-o",
+        "R0_FIFO",
+        "--base_path",
+        "D:\\LearningMaterials\\FPGA_Competition\\VF-T35F324_Board_HDK_Info_V1.51\\06_FPGA_Examples_Image\\OscilloscopeInterface\\Efinity\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "8",
+        "DATA_WIDTH": "128",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "1",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\LearningMaterials\\FPGA_Competition\\VF-T35F324_Board_HDK_Info_V1.51\\06_FPGA_Examples_Image\\OscilloscopeInterface\\Efinity\\ip\\R0_FIFO\\R0_FIFO.v",
+            "D:\\LearningMaterials\\FPGA_Competition\\VF-T35F324_Board_HDK_Info_V1.51\\06_FPGA_Examples_Image\\OscilloscopeInterface\\Efinity\\ip\\R0_FIFO\\R0_FIFO_tmpl.vhd",
+            "D:\\LearningMaterials\\FPGA_Competition\\VF-T35F324_Board_HDK_Info_V1.51\\06_FPGA_Examples_Image\\OscilloscopeInterface\\Efinity\\ip\\R0_FIFO\\R0_FIFO_tmpl.v",
+            "D:\\LearningMaterials\\FPGA_Competition\\VF-T35F324_Board_HDK_Info_V1.51\\06_FPGA_Examples_Image\\OscilloscopeInterface\\Efinity\\ip\\R0_FIFO\\R0_FIFO_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-09-29T04:49:53.044497"
+}

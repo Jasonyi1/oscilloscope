@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2023.1.150.4.10 
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+Compiled: Jun 23 2023.
+
+Using source file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_pnr/OscilloscopeInterfaceTest.lbf"
+Generating HEX programming file for device "T35F324", family "Trion"
+Using periphery source file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.lpf"
+Generating bit file: "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+	release_tri_then_reset                   = on
+Finished generating "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.hex"
+Efinity Bitstream Generator took 7.37743 seconds.
+	Efinity Bitstream Generator took 3.60938 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.6 MB, end = 5.54 MB, delta = 2.94 MB
+	Efinity Bitstream Generator peak virtual memory usage = 66.752 MB
+Efinity Bitstream Generator resident set memory usage: begin = 8.236 MB, end = 14.904 MB, delta = 6.668 MB
+	Efinity Bitstream Generator peak resident set memory usage = 68.296 MB

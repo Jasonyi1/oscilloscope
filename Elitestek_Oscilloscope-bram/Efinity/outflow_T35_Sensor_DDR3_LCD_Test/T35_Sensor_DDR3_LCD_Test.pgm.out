@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2023.1.150 
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+Compiled: Jun 23 2023.
+
+Using source file "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_pnr/T35_Sensor_DDR3_LCD_Test.lbf"
+Generating HEX programming file for device "T35F324", family "Trion"
+Using periphery source file "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.lpf"
+Generating bit file: "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+	release_tri_then_reset                   = on
+Finished generating "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.hex"
+Efinity Bitstream Generator took 7.52605 seconds.
+	Efinity Bitstream Generator took 4.625 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.608 MB, end = 7.068 MB, delta = 4.46 MB
+	Efinity Bitstream Generator peak virtual memory usage = 67.592 MB
+Efinity Bitstream Generator resident set memory usage: begin = 8.052 MB, end = 15.26 MB, delta = 7.208 MB
+	Efinity Bitstream Generator peak resident set memory usage = 68.52 MB

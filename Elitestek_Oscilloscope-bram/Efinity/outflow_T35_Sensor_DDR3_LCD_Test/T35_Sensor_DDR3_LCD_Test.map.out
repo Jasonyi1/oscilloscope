@@ -1,0 +1,370 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150
+[EFX-0000 INFO] Compiled: Jun 23 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "D:/Tools/Efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/Tools/Efinity/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_driver.v' (VERI-1482)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_driver.v(57): INFO: analyzing included file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source/lcd_para.v' (VERI-1328)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_driver.v(57): INFO: back to file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_driver.v' (VERI-2320)
+-- Analyzing Verilog file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v' (VERI-1482)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v(217): INFO: undeclared symbol 'lcd_vs', assumed default net type 'wire' (VERI-2561)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v(218): INFO: undeclared symbol 'lcd_de', assumed default net type 'wire' (VERI-2561)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v(219): INFO: undeclared symbol 'lcd_data', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\VsyHsyGenerator.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v' (VERI-1482)
+INFO: Analysis took 0.0298864 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.292 MB, end = 56.092 MB, delta = 0.8 MB
+INFO: 	Analysis peak virtual memory usage = 56.092 MB
+INFO: Analysis resident set memory usage: begin = 58.876 MB, end = 60.652 MB, delta = 1.776 MB
+INFO: 	Analysis peak resident set memory usage = 60.652 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v(7): INFO: compiling module 'T35_Sensor_DDR3_LCD_Test' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(49): INFO: compiling module 'etx_ddr3_reset_controller' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(116): INFO: compiling module 'ddr_reset_sequencer_f22535be44aa4f1699b3dab9b8079372' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(163): WARNING: expression size 64 truncated to fit in target size 20 (VERI-1209)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\VsyHsyGenerator.v(7): INFO: compiling module 'VsyHsyGenerator' (VERI-1018)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v(2): INFO: compiling module 'axi4_ctrl' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(49): INFO: compiling module 'W0_FIFO' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(376): INFO: compiling module 'efx_fifo_top_50601c1db1d8485bbd3701a3d4e0e7db_renamed_due_excessive_length_1' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_50601c1db1d8485bbd3701a3d4e0e7db(MODE="FWFT",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_50601c1db1d8485bbd3701a3d4e0e7db_renamed_due_excessive_length_2' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(1262): WARNING: expression size 32 truncated to fit in target size 13 (VERI-1209)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(1263): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=10)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_50601c1db1d8485bbd3701a3d4e0e7db(STAGE=2,WIDTH=10)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=10)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=9)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=8)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=7)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=6)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=4)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=3)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=2)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=13)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_50601c1db1d8485bbd3701a3d4e0e7db(STAGE=2,WIDTH=13)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=13)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=12)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=11)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(90): WARNING: actual bit length 12 differs from formal bit length 13 for port 'wr_datacount_o' (VERI-1330)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(93): WARNING: actual bit length 9 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v(130): WARNING: actual bit length 12 differs from formal bit length 9 for port 'rd_datacount_o' (VERI-1330)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(49): INFO: compiling module 'R0_FIFO' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(376): INFO: compiling module 'efx_fifo_top_3e32dbd2fc7c4b9e9091bf52ed151b67_renamed_due_excessive_length_3' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_3e32dbd2fc7c4b9e9091bf52ed151b67(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=16,WADDR_WIDTH=8,RADDR_WIDTH=11,OUTPUT_REG=0,RAM_MUX_RATIO=8)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_3e32dbd2fc7c4b9e9091bf52ed151b67_renamed_due_excessive_length_4' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(1256): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(1257): WARNING: expression size 32 truncated to fit in target size 12 (VERI-1209)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=12)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_3e32dbd2fc7c4b9e9091bf52ed151b67(STAGE=2,WIDTH=12)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=12)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=11)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=10)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=9)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=8)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=7)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=6)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=4)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=3)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=2)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=9)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_3e32dbd2fc7c4b9e9091bf52ed151b67(STAGE=2,WIDTH=9)' (VERI-1018)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(90): WARNING: actual bit length 8 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(93): WARNING: actual bit length 11 differs from formal bit length 12 for port 'rd_datacount_o' (VERI-1330)
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v(294): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v(311): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_driver.v(36): INFO: compiling module 'lcd_driver' (VERI-1018)
+INFO: Elaboration took 0.0728655 seconds.
+INFO: 	Elaboration took 0.0625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 56.092 MB, end = 65.596 MB, delta = 9.504 MB
+INFO: 	Elaboration peak virtual memory usage = 65.596 MB
+INFO: Elaboration resident set memory usage: begin = 60.664 MB, end = 70.784 MB, delta = 10.12 MB
+INFO: 	Elaboration peak resident set memory usage = 70.784 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+D:/Tools/Efinity/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0137714 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 66.504 MB, end = 66.504 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 66.504 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 71.968 MB, end = 71.984 MB, delta = 0.016 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 71.984 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:705)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_Sensor_DDR3_LCD_Test"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_f22535be44aa4f1699b3dab9b8079372" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_f22535be44aa4f1699b3dab9b8079372" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "etx_ddr3_reset_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "etx_ddr3_reset_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VsyHsyGenerator" begin
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[31]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[30]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[29]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[28]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[27]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[26]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[25]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[24]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[23]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[22]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[21]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[20]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[19]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[18]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[17]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[16]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[15]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[14]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[13]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[12]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VsyHsyGenerator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_50601c1db1d8485bbd3701a3d4e0e7db(MODE="FWFT",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)" begin
+... address typerange is packed : 0
+	 dimension : 2
+	 bounds : 4095 : 0
+... data typerange is packed : 1
+	  dimension : 1
+	 bounds : 15 : 0
+### 15:0
+### 7:0
+### 511:0
+### new type range 
+... address typerange is packed : 0
+	 dimension : 3
+	 bounds : 511 : 0
+... data typerange is packed : 0
+	  dimension : 2
+	 bounds : 7 : 0
+... data2 typerange is packed : 0
+	  dimension : 1
+	 bounds : 15 : 0
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_50601c1db1d8485bbd3701a3d4e0e7db(MODE="FWFT",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_50601c1db1d8485bbd3701a3d4e0e7db(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_50601c1db1d8485bbd3701a3d4e0e7db(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_50601c1db1d8485bbd3701a3d4e0e7db(STAGE=2,WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_50601c1db1d8485bbd3701a3d4e0e7db(STAGE=2,WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_50601c1db1d8485bbd3701a3d4e0e7db(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_50601c1db1d8485bbd3701a3d4e0e7db_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_50601c1db1d8485bbd3701a3d4e0e7db_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_50601c1db1d8485bbd3701a3d4e0e7db_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_50601c1db1d8485bbd3701a3d4e0e7db_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_3e32dbd2fc7c4b9e9091bf52ed151b67(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=16,WADDR_WIDTH=8,RADDR_WIDTH=11,OUTPUT_REG=0,RAM_MUX_RATIO=8)" begin
+... address typerange is packed : 0
+	 dimension : 2
+	 bounds : 2047 : 0
+... data typerange is packed : 1
+	  dimension : 1
+	 bounds : 15 : 0
+### 15:0
+### 7:0
+### 255:0
+### new type range 
+... address typerange is packed : 0
+	 dimension : 3
+	 bounds : 255 : 0
+... data typerange is packed : 0
+	  dimension : 2
+	 bounds : 7 : 0
+... data2 typerange is packed : 0
+	  dimension : 1
+	 bounds : 15 : 0
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_3e32dbd2fc7c4b9e9091bf52ed151b67(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=16,WADDR_WIDTH=8,RADDR_WIDTH=11,OUTPUT_REG=0,RAM_MUX_RATIO=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e32dbd2fc7c4b9e9091bf52ed151b67(STAGE=2,WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e32dbd2fc7c4b9e9091bf52ed151b67(STAGE=2,WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e32dbd2fc7c4b9e9091bf52ed151b67(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e32dbd2fc7c4b9e9091bf52ed151b67(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e32dbd2fc7c4b9e9091bf52ed151b67(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_3e32dbd2fc7c4b9e9091bf52ed151b67_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_3e32dbd2fc7c4b9e9091bf52ed151b67_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_3e32dbd2fc7c4b9e9091bf52ed151b67_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_3e32dbd2fc7c4b9e9091bf52ed151b67_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_Sensor_DDR3_LCD_Test" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 32 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_Sensor_DDR3_LCD_Test" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 369, ed: 1032, lv: 4, pw: 1504.60
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 365 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n3 with 95 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n5 with 85 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port tx_fastclk is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RLAST_0 is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RRESP_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RRESP_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port cmos_pclk is unconnected and will be removed
+INFO: Found 21 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0179188 seconds.
+INFO: 	VDB Netlist Checker took 0.015625 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 84.776 MB, end = 84.776 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 107.18 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 92.172 MB, end = 92.232 MB, delta = 0.06 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 109.808 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'T35_Sensor_DDR3_LCD_Test' to Verilog file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	185
+[EFX-0000 INFO] EFX_LUT4        : 	366
+[EFX-0000 INFO] EFX_FF          : 	543
+[EFX-0000 INFO] EFX_RAM_5K      : 	24
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 

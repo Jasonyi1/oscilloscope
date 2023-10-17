@@ -1,0 +1,561 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "54eb32662c594c05920d92e133f80c9a",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 2048,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "u_interpolation/src/div2Domain_shiftTwo",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src/io_output_payload",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src/io_output_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src/io_output_valid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src/div2Domain_si_0",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src/div2Domain_si_1",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src/div2Domain_useSame",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/io_src_in_payload",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/src_io_input_ready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_interpolation/clk",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "OscilloscopeInterfaceTest",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "frame_pclk",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "div2Domain_shiftTwo",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "io_output_payload[0]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "io_output_payload[1]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "io_output_payload[2]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "io_output_payload[3]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[4]",
+                        "net": "io_output_payload[4]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[5]",
+                        "net": "io_output_payload[5]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[6]",
+                        "net": "io_output_payload[6]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[7]",
+                        "net": "io_output_payload[7]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "io_output_ready",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "io_output_valid",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[0]",
+                        "net": "div2Domain_si_0[0]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[1]",
+                        "net": "div2Domain_si_0[1]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[2]",
+                        "net": "div2Domain_si_0[2]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[3]",
+                        "net": "div2Domain_si_0[3]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[0]",
+                        "net": "div2Domain_si_1[0]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[1]",
+                        "net": "div2Domain_si_1[1]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[2]",
+                        "net": "div2Domain_si_1[2]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[3]",
+                        "net": "div2Domain_si_1[3]",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "div2Domain_useSame",
+                        "path": [
+                            "u_interpolation",
+                            "src"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[0]",
+                        "net": "io_src_in_payload[0]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[1]",
+                        "net": "io_src_in_payload[1]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[2]",
+                        "net": "io_src_in_payload[2]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[3]",
+                        "net": "io_src_in_payload[3]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[4]",
+                        "net": "io_src_in_payload[4]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[5]",
+                        "net": "io_src_in_payload[5]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[6]",
+                        "net": "io_src_in_payload[6]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[7]",
+                        "net": "io_src_in_payload[7]",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "src_io_input_ready",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9",
+                        "net": "clk",
+                        "path": [
+                            "u_interpolation"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 2048,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "div2Domain_shiftTwo",
+                    "width": 1,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ]
+                },
+                {
+                    "name": "io_output_payload",
+                    "width": 8,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "io_output_ready",
+                    "width": 1,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ]
+                },
+                {
+                    "name": "io_output_valid",
+                    "width": 1,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ]
+                },
+                {
+                    "name": "div2Domain_si_0",
+                    "width": 4,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "div2Domain_si_1",
+                    "width": 4,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "div2Domain_useSame",
+                    "width": 1,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation",
+                        "src"
+                    ]
+                },
+                {
+                    "name": "io_src_in_payload",
+                    "width": 8,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "src_io_input_ready",
+                    "width": 1,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation"
+                    ]
+                },
+                {
+                    "name": "clk",
+                    "width": 1,
+                    "clk_domain": "frame_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_interpolation"
+                    ]
+                }
+            ],
+            "top_module": "OscilloscopeInterfaceTest",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

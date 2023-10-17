@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.4.10 
+Date: Tue Oct 17 10:45:27 2023
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T35F324
+Top-level Entity Name: OscilloscopeInterfaceTest
+Elapsed time for routing: 0 hours 0 minutes 11 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 46 seconds

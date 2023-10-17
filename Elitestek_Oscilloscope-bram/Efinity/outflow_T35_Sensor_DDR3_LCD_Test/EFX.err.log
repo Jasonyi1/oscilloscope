@@ -1,0 +1,57 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:05:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] part-select has a negative or zero size (VERI-1095) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4358)
+[EFX-0010 VERI-ERROR] index -1 is out of range [255:0] for 'la_trig_mask' (VERI-1216) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4358)
+[EFX-0021 ERROR] Verific elaboration of module 'edb_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:07:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:07:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:16:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:16:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:24:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:24:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:27:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:27:49
+///////////////////////////////////
+

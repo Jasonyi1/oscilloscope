@@ -1,0 +1,227 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from D:/Tools/Efinity/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'D:/Tools/Efinity/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'D:/Tools/Efinity/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 9.19628 seconds.
+	BuildGraph process took 7.46875 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 65.12 MB, end = 699.32 MB, delta = 634.2 MB
+	BuildGraph process peak virtual memory usage = 707.068 MB
+BuildGraph process resident set memory usage: begin = 74.3 MB, end = 692.396 MB, delta = 618.096 MB
+	BuildGraph process peak resident set memory usage = 700 MB
+check rr_graph process took 0.174219 seconds.
+	check rr_graph process took 0.125 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 762.704 MB, end = 762.704 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 780.008 MB
+check rr_graph process resident set memory usage: begin = 755.668 MB, end = 755.732 MB, delta = 0.064 MB
+	check rr_graph process peak resident set memory usage = 772.988 MB
+Generated 1962964 RR nodes and 7308776 RR edges
+This design has 0 global control net(s). See D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow\T35_Sensor_DDR3_LCD_Test.route.rpt for details.
+Routing graph took 9.52654 seconds.
+	Routing graph took 7.71875 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 63.772 MB, end = 689.332 MB, delta = 625.56 MB
+	Routing graph peak virtual memory usage = 780.008 MB
+Routing graph resident set memory usage: begin = 73.28 MB, end = 683.156 MB, delta = 609.876 MB
+	Routing graph peak resident set memory usage = 772.988 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+WARNING(1): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] No valid object(s) found for 'Ddr_Clk'
+WARNING(2): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] No valid pin(s) found for clock
+WARNING(3): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:17] No valid object(s) found for 'clk_cmos'
+WARNING(5): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:17] No valid pin(s) found for clock
+WARNING(6): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:17] Unable to run 'create_clock' constraint due to warnings found
+WARNING(7): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:21] No valid object(s) found for 'cmos_pclk'
+WARNING(8): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:21] No valid pin(s) found for clock
+WARNING(9): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:21] Unable to run 'create_clock' constraint due to warnings found
+WARNING(10): No ports matched 'cmos_pclk'
+WARNING(11): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:29] Invalid option value '<USER_PERIOD>' specified for -period
+WARNING(12): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING(13): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(14): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:141] No valid object(s) found for ''
+WARNING(15): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:141] set_input_delay: No valid input port(s) found
+WARNING(16): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:141] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(17): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(18): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:142] No valid object(s) found for ''
+WARNING(19): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:142] set_input_delay: No valid input port(s) found
+WARNING(20): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:142] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(21): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(22): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:147] No valid object(s) found for ''
+WARNING(23): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:147] set_input_delay: No valid input port(s) found
+WARNING(24): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:147] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(25): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(26): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:148] No valid object(s) found for ''
+WARNING(27): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:148] set_input_delay: No valid input port(s) found
+WARNING(28): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:148] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(29): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(30): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:149] No valid object(s) found for ''
+WARNING(31): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:149] set_input_delay: No valid input port(s) found
+WARNING(32): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:149] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(33): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(34): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:150] No valid object(s) found for ''
+WARNING(35): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:150] set_input_delay: No valid input port(s) found
+WARNING(36): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:150] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(37): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(38): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(39): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:151] No valid object(s) found for ''
+WARNING(40): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:151] set_input_delay: No valid input port(s) found
+WARNING(41): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:151] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(42): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(43): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(44): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] No valid object(s) found for ''
+WARNING(45): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] set_input_delay: No valid input port(s) found
+WARNING(46): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc' parsed successfully.
+3 clocks (including virtual clocks), 132 inputs and 248 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1         3185              9.126              0.605
+         2          218              9.126              0.711
+         3           50              9.126              0.253
+         4            4              9.126              0.154
+         5            2              9.126              0.109
+         6            2              9.126              0.109
+         7            2              9.126               0.11
+         8            0              9.126               0.11
+
+Successfully routed netlist after 8 routing iterations and 5671525 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 788641871
+Netlist fully routed.
+
+Successfully created FPGA route file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.route'
+Routing took 3.26148 seconds.
+	Routing took 2.17188 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 689.332 MB, end = 685.728 MB, delta = -3.604 MB
+	Routing peak virtual memory usage = 841.968 MB
+Routing resident set memory usage: begin = 683.16 MB, end = 681.412 MB, delta = -1.748 MB
+	Routing peak resident set memory usage = 798.5 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+WARNING(47): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] No valid object(s) found for 'Ddr_Clk'
+WARNING(48): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] No valid pin(s) found for clock
+WARNING(49): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] Unable to run 'create_clock' constraint due to warnings found
+WARNING(50): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:17] No valid object(s) found for 'clk_cmos'
+WARNING(51): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:17] No valid pin(s) found for clock
+WARNING(52): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:17] Unable to run 'create_clock' constraint due to warnings found
+WARNING(53): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:21] No valid object(s) found for 'cmos_pclk'
+WARNING(54): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:21] No valid pin(s) found for clock
+WARNING(55): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:21] Unable to run 'create_clock' constraint due to warnings found
+WARNING(56): No ports matched 'cmos_pclk'
+WARNING(57): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:29] Invalid option value '<USER_PERIOD>' specified for -period
+WARNING(58): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING(59): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(60): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:141] No valid object(s) found for ''
+WARNING(61): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:141] set_input_delay: No valid input port(s) found
+WARNING(62): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:141] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(63): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(64): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:142] No valid object(s) found for ''
+WARNING(65): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:142] set_input_delay: No valid input port(s) found
+WARNING(66): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:142] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(67): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(68): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:147] No valid object(s) found for ''
+WARNING(69): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:147] set_input_delay: No valid input port(s) found
+WARNING(70): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:147] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(71): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(72): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:148] No valid object(s) found for ''
+WARNING(73): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:148] set_input_delay: No valid input port(s) found
+WARNING(74): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:148] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(75): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(76): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:149] No valid object(s) found for ''
+WARNING(77): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:149] set_input_delay: No valid input port(s) found
+WARNING(78): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:149] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(79): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(80): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:150] No valid object(s) found for ''
+WARNING(81): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:150] set_input_delay: No valid input port(s) found
+WARNING(82): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:150] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(83): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(84): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(85): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:151] No valid object(s) found for ''
+WARNING(86): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:151] set_input_delay: No valid input port(s) found
+WARNING(87): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:151] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(88): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(89): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(90): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] No valid object(s) found for ''
+WARNING(91): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] set_input_delay: No valid input port(s) found
+WARNING(92): [SDC D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:152] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.sdc' parsed successfully.
+3 clocks (including virtual clocks), 132 inputs and 248 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+ Axi_Clk         9.246       108.155         (R-R)
+ tx_slowclk     10.795        92.635         (R-R)
+
+Geomean max period: 9.991
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   Axi_Clk          Axi_Clk            10.417            1.171           (R-R)
+   Axi_Clk          tx_slowclk          0.001           -2.002           (R-R)
+   tx_slowclk       Axi_Clk             0.001           -2.875           (R-R)
+   tx_slowclk       tx_slowclk         20.833           10.038           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   Axi_Clk          Axi_Clk            0.000            -0.093           (R-R)
+   Axi_Clk          tx_slowclk         0.000             0.307           (R-R)
+   tx_slowclk       Axi_Clk            0.000             0.309           (R-R)
+   tx_slowclk       tx_slowclk         0.000             0.218           (R-R)
+
+WARNING(93): Clock domain between Axi_Clk (rising) and tx_slowclk (rising) may not meet (slack: -2.002 ns) the setup (max) timing requirement
+WARNING(94): Clock domain between tx_slowclk (rising) and Axi_Clk (rising) may not meet (slack: -2.875 ns) the setup (max) timing requirement
+
+WARNING(95): Clock domain between Axi_Clk (rising) and Axi_Clk (rising) may not meet (slack: -0.093 ns) the hold (min) timing requirement
+
+Write Timing Report to "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow\T35_Sensor_DDR3_LCD_Test.timing.rpt" ...
+final timing analysis took 0.896641 seconds.
+	final timing analysis took 0.671875 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 685.728 MB, end = 687.1 MB, delta = 1.372 MB
+	final timing analysis peak virtual memory usage = 841.968 MB
+final timing analysis resident set memory usage: begin = 681.476 MB, end = 682.796 MB, delta = 1.32 MB
+	final timing analysis peak resident set memory usage = 798.5 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv'.
+Successfully processed interface constraints file "D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.interface.csv".
+Finished writing bitstream file D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_pnr\T35_Sensor_DDR3_LCD_Test.lbf.
+Bitstream generation took 1.14148 seconds.
+	Bitstream generation took 0.640625 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 687.1 MB, end = 726.632 MB, delta = 39.532 MB
+	Bitstream generation peak virtual memory usage = 841.968 MB
+Bitstream generation resident set memory usage: begin = 682.82 MB, end = 721.376 MB, delta = 38.556 MB
+	Bitstream generation peak resident set memory usage = 798.5 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 27.2077 seconds.
+	The entire flow of EFX_PNR took 18.1406 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.572 MB, end = 96.236 MB, delta = 90.664 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 841.968 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.756 MB, end = 105.608 MB, delta = 92.852 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 798.5 MB

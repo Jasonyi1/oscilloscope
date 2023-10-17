@@ -1,0 +1,73 @@
+
+Efinity Interface Designer Timing Report
+Version: 2023.1.150
+Date: 2023-09-24 11:31
+
+Copyright (C) 2017 - 2023 Efinix Inc. All rights reserved.
+
+Device: T35F324
+Project: T35_Sensor_DDR3_LCD_Test
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++------------+-------------+-----------------------+
+|   Clock    | Period (ns) | Phase Shift (degrees) |
++------------+-------------+-----------------------+
+|  Ddr_Clk   |    2.5063   |           0           |
+|  clk_cmos  |   37.5940   |           0           |
+|  Axi_Clk   |   10.4167   |           0           |
+| tx_slowclk |   20.8333   |           0           |
+| tx_fastclk |    5.9524   |           90          |
++------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
+| cmos_pclk |  4.310   |  2.155   |
++-----------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-----------+-------------+----------+----------+
+| Instance Name |  Pin Name |  Parameter  | Max (ns) | Min (ns) |
++---------------+-----------+-------------+----------+----------+
+|   clk_12M_i   | clk_12M_i |   GPIO_IN   |  1.589   |  0.794   |
+|   clk_24M_i   | clk_24M_i |   GPIO_IN   |  1.589   |  0.794   |
+|   cmos_pclk   | cmos_pclk | GPIO_CLK_IN |  1.275   |  0.637   |
+|     LED[0]    |   LED[0]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[1]    |   LED[1]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[2]    |   LED[2]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[3]    |   LED[3]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[4]    |   LED[4]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[5]    |   LED[5]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[6]    |   LED[6]  |   GPIO_OUT  |  3.829   |  1.915   |
+|     LED[7]    |   LED[7]  |   GPIO_OUT  |  3.829   |  1.915   |
++---------------+-----------+-------------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|    lcd_pwm    | lcd_pwm  |  GPIO_OUT |  3.542   |  1.771   |
++---------------+----------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 4. LVDS Tx Timing Report (begin) ----------
+
+---------- LVDS Tx Timing Report (end) ----------

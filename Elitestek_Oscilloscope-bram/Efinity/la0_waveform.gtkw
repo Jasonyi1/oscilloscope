@@ -1,0 +1,21 @@
+[dumpfile] "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\OscilloscopeInterface\Efinity\la0_waveform.vcd"
+[dumpfile_mtime] "Sun Oct 15 08:30:39 2023"
+[dumpfile_size] 43969
+[savefile] "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\OscilloscopeInterface\Efinity\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 1024 3072 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\u_interpolation/src/div2Domain_shiftTwo
+top.\u_interpolation/src/io_output_payload[7:0]
+top.\u_interpolation/src/io_output_ready
+top.\u_interpolation/src/io_output_valid
+top.\u_interpolation/src/div2Domain_si_0[3:0]
+top.\u_interpolation/src/div2Domain_si_1[3:0]
+top.\u_interpolation/src/div2Domain_useSame
+top.\u_interpolation/io_src_in_payload[7:0]
+top.\u_interpolation/src_io_input_ready
+top.\u_interpolation/clk

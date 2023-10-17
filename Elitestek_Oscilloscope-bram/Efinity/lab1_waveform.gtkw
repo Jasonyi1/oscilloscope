@@ -1,0 +1,35 @@
+[dumpfile] "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\OscilloscopeInterface\Efinity\lab1_waveform.vcd"
+[dumpfile_mtime] "Thu Oct 05 13:56:21 2023"
+[dumpfile_size] 41456
+[savefile] "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\OscilloscopeInterface\Efinity\lab1_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 1024 3072 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.ram_re[4:0]
+top.ram_we[4:0]
+top.ram_waddr[13:0]
+top.ram_rdata_b[15:0]
+top.ram_raddr[13:0]
+top.\u_VsyHsyGenerator/pCnt_value[9:0]
+top.\u_VsyHsyGenerator/hCnt_value[9:0]
+top.\u_VsyHsyGenerator/ram_addr[13:0]
+top.\u_VsyHsyGenerator/ram_color[15:0]
+top.\u_VsyHsyGenerator/ram_en[4:0]
+top.\u_VsyHsyGenerator/io_color[15:0]
+top.clk_12M_i
+top.\u_VsyHsyGenerator/picture/ram_addr[13:0]
+top.\u_VsyHsyGenerator/picture/rAddr/filmSel[2:0]
+top.\u_VsyHsyGenerator/picture/rAddr/ram_x[9:0]
+top.\u_VsyHsyGenerator/picture/rAddr/ram_y[9:0]
+top.\u_VsyHsyGenerator/picture/coordinate_x[9:0]
+top.\u_VsyHsyGenerator/picture/coordinate_y[9:0]
+top.data_remain[9:0]
+top.fifo_data_in[7:0]
+top.fifo_data_out[7:0]
+top.wr_en_i
+top.rd_en_i
+top.ram_wdata_a[15:0]

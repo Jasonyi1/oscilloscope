@@ -1,0 +1,27 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Oct 15, 2023 16:56:22
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+edb_top:edb_top                                             	     833(0)	      93(0)	     836(0)	    16(0)	     0(0)	
+ +la0:edb_la_top_renamed_due_excessive_length_1             	   747(438)	     93(41)	   813(485)	    16(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32                                 	     32(32)	       0(0)	     55(55)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       8(8)	     0(0)	     0(0)	
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01000,PIPE=1)	     19(19)	       0(0)	     25(25)	     0(0)	     0(0)	
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       8(8)	     0(0)	     0(0)	
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       8(8)	     0(0)	     0(0)	
+  +GEN_PROBE[4].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b0100,PIPE=1)	     11(11)	       0(0)	     16(16)	     0(0)	     0(0)	
+  +GEN_PROBE[5].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b0100,PIPE=1)	     11(11)	       0(0)	     15(15)	     0(0)	     0(0)	
+  +GEN_PROBE[6].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       9(9)	     0(0)	     0(0)	
+  +GEN_PROBE[7].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01000,PIPE=1)	     19(19)	       0(0)	     27(27)	     0(0)	     0(0)	
+  +GEN_PROBE[8].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       7(7)	       0(0)	       9(9)	     0(0)	     0(0)	
+  +GEN_PROBE[9].genblk7.genblk3.trigger_cu:compare_unit(WIDTH=11'b01,PIPE=1)	       8(8)	       0(0)	     11(11)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit(WIDTH=32'b01010,PIPE=1)          	       1(1)	       0(0)	       6(6)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b011110,DATA_DEPTH=2048)	    173(61)	      52(0)	    131(64)	    16(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b011111,ADDR_WIDTH=11)	    112(90)	     52(52)	     67(34)	    16(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=11,CELL_ADDR_WIDTH=12)	     11(11)	       0(0)	     11(11)	     0(0)	     0(0)	
+    +transcode_read_addr:fifo_address_trancode_unit(TOTAL_ADDR_WIDTH=11,CELL_ADDR_WIDTH=12)	     11(11)	       0(0)	     22(22)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(DATA_WIDTH=32'b011111,ADDR_WIDTH=11,RAM_INIT_FILE="")	       0(0)	       0(0)	       0(0)	   16(16)	     0(0)	
+ +debug_hub_inst:debug_hub                                  	     86(86)	       0(0)	     23(23)	     0(0)	     0(0)	

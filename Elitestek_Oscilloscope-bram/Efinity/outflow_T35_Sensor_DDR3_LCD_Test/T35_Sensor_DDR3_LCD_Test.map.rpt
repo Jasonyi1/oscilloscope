@@ -1,0 +1,309 @@
+Efinity Synthesis report for project T35_Sensor_DDR3_LCD_Test
+Version: 2023.1.150
+Generated at: Sep 24, 2023 11:30:56
+Copyright (C) 2013 - 2023  Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : T35_Sensor_DDR3_LCD_Test
+
+### ### File List (begin) ### ### ###
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_driver.v
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\lcd_para.v
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v
+D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\VsyHsyGenerator.v
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v
+D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:705)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 21
+Total number of FFs with enable signals: 179
+CE signal <n6_2>, number of controlling flip flops: 8
+CE signal <U0_DDR_Reset/u_ddr_reset_sequencer/n15>, number of controlling flip flops: 21
+CE signal <U0_DDR_Reset/u_ddr_reset_sequencer/equal_21/n3>, number of controlling flip flops: 1
+CE signal <ceg_net2>, number of controlling flip flops: 1
+CE signal <ceg_net5>, number of controlling flip flops: 1
+CE signal <u_VsyHsyGenerator/n681>, number of controlling flip flops: 3
+CE signal <u_axi4_ctrl/equal_37/n3>, number of controlling flip flops: 2
+CE signal <u_axi4_ctrl/equal_46/n3>, number of controlling flip flops: 2
+CE signal <u_axi4_ctrl/n412>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/n370>, number of controlling flip flops: 9
+CE signal <u_axi4_ctrl/n386>, number of controlling flip flops: 9
+CE signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 13
+CE signal <ceg_net12>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 20
+CE signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 9
+CE signal <ceg_net19>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 21
+CE signal <u_axi4_ctrl/n376>, number of controlling flip flops: 14
+CE signal <u_axi4_ctrl/n388>, number of controlling flip flops: 14
+CE signal <ceg_net124>, number of controlling flip flops: 16
+CE signal <u_lcd_driver/equal_15/n23>, number of controlling flip flops: 12
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 14
+Total number of FFs with set/reset signals: 324
+SR signal <DdrCtrl_CFG_RST_N>, number of controlling flip flops: 23
+SR signal <U0_DDR_Reset/u_ddr_reset_sequencer/rstn_dly[1]>, number of controlling flip flops: 3
+SR signal <Axi0ResetReg[2]>, number of controlling flip flops: 100
+SR signal <u_axi4_ctrl/n1476>, number of controlling flip flops: 19
+SR signal <u_axi4_ctrl/n1483>, number of controlling flip flops: 1
+SR signal <u_axi4_ctrl/wfifo_rst>, number of controlling flip flops: 4
+SR signal <DdrCtrl_WVALID_0>, number of controlling flip flops: 9
+SR signal <DdrCtrl_RREADY_0>, number of controlling flip flops: 9
+SR signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 33
+SR signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 41
+SR signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 27
+SR signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 40
+SR signal <u_axi4_ctrl/n1623>, number of controlling flip flops: 1
+SR signal <u_axi4_ctrl/n1485>, number of controlling flip flops: 14
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_5/i5
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_5/i4
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_5/i3
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_5/i2
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_5/i1
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_6/i3
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_7/i1
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i16
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i15
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i14
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i13
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i12
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i11
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i10
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i9
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i8
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i7
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i6
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i5
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i4
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i3
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i2
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" removed instance : u_axi4_ctrl/dff_10/i1
+@ "D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\axi4_ctrl.v (59)" representative instance : u_axi4_ctrl/dff_5/i6
+FF Output: DdrCtrl_ASIZE_0[0](=0)
+FF Output: DdrCtrl_ALOCK_0[0](=0)
+FF Output: DdrCtrl_AID_0[0](=0)
+FF Output: DdrCtrl_ASIZE_0[1](=0)
+FF Output: DdrCtrl_ALEN_0[6](=0)
+FF Output: DdrCtrl_ALEN_0[7](=0)
+FF Output: u_axi4_ctrl/awaddr[0](=0)
+FF Output: u_axi4_ctrl/araddr[0](=0)
+FF Output: DdrCtrl_AID_0[7](=0)
+FF Output: DdrCtrl_AID_0[6](=0)
+FF Output: DdrCtrl_AID_0[5](=0)
+FF Output: DdrCtrl_AID_0[4](=0)
+FF Output: DdrCtrl_AID_0[3](=0)
+FF Output: DdrCtrl_AID_0[2](=0)
+FF Output: DdrCtrl_AID_0[1](=0)
+FF Output: DdrCtrl_ALOCK_0[1](=0)
+FF Output: DdrCtrl_ABURST_0[1](=0)
+FF Output: u_axi4_ctrl/awaddr[1](=0)
+FF Output: u_axi4_ctrl/awaddr[2](=0)
+FF Output: u_axi4_ctrl/awaddr[3](=0)
+FF Output: u_axi4_ctrl/awaddr[4](=0)
+FF Output: u_axi4_ctrl/awaddr[5](=0)
+FF Output: u_axi4_ctrl/awaddr[6](=0)
+FF Output: u_axi4_ctrl/awaddr[7](=0)
+FF Output: u_axi4_ctrl/awaddr[8](=0)
+FF Output: u_axi4_ctrl/awaddr[9](=0)
+FF Output: u_axi4_ctrl/araddr[1](=0)
+FF Output: u_axi4_ctrl/araddr[2](=0)
+FF Output: u_axi4_ctrl/araddr[3](=0)
+FF Output: u_axi4_ctrl/araddr[4](=0)
+FF Output: u_axi4_ctrl/araddr[5](=0)
+FF Output: u_axi4_ctrl/araddr[6](=0)
+FF Output: u_axi4_ctrl/araddr[7](=0)
+FF Output: u_axi4_ctrl/araddr[8](=0)
+FF Output: u_axi4_ctrl/araddr[9](=0)
+FF Output: DdrCtrl_AADDR_0[26](=0)
+FF Output: DdrCtrl_AADDR_0[27](=0)
+FF Output: DdrCtrl_AADDR_0[28](=0)
+FF Output: DdrCtrl_AADDR_0[29](=0)
+FF Output: DdrCtrl_AADDR_0[30](=0)
+FF Output: DdrCtrl_AADDR_0[31](=0)
+FF Output: DdrCtrl_AADDR_0[0](=0)
+FF Output: DdrCtrl_AADDR_0[1](=0)
+FF Output: DdrCtrl_AADDR_0[2](=0)
+FF Output: DdrCtrl_AADDR_0[3](=0)
+FF Output: DdrCtrl_AADDR_0[4](=0)
+FF Output: DdrCtrl_AADDR_0[5](=0)
+FF Output: DdrCtrl_AADDR_0[6](=0)
+FF Output: DdrCtrl_AADDR_0[7](=0)
+FF Output: DdrCtrl_AADDR_0[8](=0)
+FF Output: DdrCtrl_AADDR_0[9](=0)
+FF instance: u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+FF instance: u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+T35_Sensor_DDR3_LCD_Test:T35_Sensor_DDR3_LCD_Test                543(14)      185(8)      366(4)     24(0)      0(0)
+ +U0_DDR_Reset:etx_ddr3_reset_controller                           26(0)       21(0)       11(0)      0(0)      0(0)
+  +u_ddr_reset_sequencer:ddr_reset_sequencer_f22535be44aa...      26(26)      21(21)      11(11)      0(0)      0(0)
+ +u_VsyHsyGenerator:VsyHsyGenerator                               40(40)      31(31)      87(87)      0(0)      0(0)
+ +u_axi4_ctrl:axi4_ctrl                                         439(214)     103(32)     201(83)     24(0)      0(0)
+  +u_W0_FIFO:W0_FIFO                                              118(0)       43(0)       59(0)     16(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_50601c1db1d8485bbd3701a3d...      118(4)       43(0)       59(0)     16(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_50601c1db1d8485bbd3701a3d...        0(0)        0(0)        0(0)    16(16)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_50601c1db1d8485bbd3701a3d...     114(74)      43(43)      59(23)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_50601c1db...        0(0)        0(0)        9(9)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_50601c1d...      20(20)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_50601c1db...        0(0)        0(0)        9(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_50601...        0(0)        0(0)        8(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_5060...        0(0)        0(0)        7(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_506...        0(0)        0(0)        6(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_50...        0(0)        0(0)        5(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_5...        0(0)        0(0)        4(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        3(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        2(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_50601c1db1...        0(0)        0(0)        9(9)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_50601c1db...      20(20)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_50601c1db1...        0(0)        0(0)        9(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_50601...        0(0)        0(0)        8(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_5060...        0(0)        0(0)        7(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_506...        0(0)        0(0)        6(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_50...        0(0)        0(0)        5(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_5...        0(0)        0(0)        4(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        3(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        2(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        1(1)      0(0)      0(0)
+  +u_R0_FIFO:R0_FIFO                                              107(0)       28(0)       59(0)      8(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_3e32dbd2fc7c4b9e9091bf52e...      107(4)       28(0)       59(0)      8(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_3e32dbd2fc7c4b9e9091bf52e...        0(0)        0(0)        0(0)      8(8)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_3e32dbd2fc7c4b9e9091bf52e...     103(67)      28(28)      59(27)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_3e32dbd2f...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_3e32dbd2...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_3e32dbd2f...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e32d...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e32...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e3...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_3e32dbd2fc...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_3e32dbd2f...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_3e32dbd2fc...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e32d...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e32...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e3...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+ +u_lcd_driver:lcd_driver                                         24(24)      22(22)      63(63)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+      Clock     Flip-Flops   Memory Ports    Multipliers
+      -----     ----------   ------------    -----------
+    Axi_Clk            364             24              0
+  clk_12M_i             95             16              0
+ tx_slowclk             84              8              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T35F324
+project : T35_Sensor_DDR3_LCD_Test
+project-xml : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/T35_Sensor_DDR3_LCD_Test.xml
+root : T35_Sensor_DDR3_LCD_Test
+I : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity
+I : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/ip/etx_ddr3_reset_controller
+I : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/ip/W0_FIFO
+I : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/ip/R0_FIFO
+output-dir : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow
+work-dir : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_syn
+write-efx-verilog : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.map.v
+binary-db : D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/outflow/T35_Sensor_DDR3_LCD_Test.vdb
+insert-ios : 0
+max-carry-cascade : 480
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	158
+OUTPUT PORTS    : 	260
+
+EFX_ADD         : 	185
+EFX_LUT4        : 	366
+   1-2  Inputs  : 	168
+   3    Inputs  : 	104
+   4    Inputs  : 	94
+EFX_FF          : 	543
+EFX_RAM_5K      : 	24
+EFX_GBUFCE      : 	3
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 2s
+Elapsed synthesis time : 2s

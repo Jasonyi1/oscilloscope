@@ -1,0 +1,579 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150.4.10
+[EFX-0000 INFO] Compiled: Sep  6 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/OscilloscopeInterfaceTest.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_driver.v' (VERI-1482)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_driver.v(57): INFO: analyzing included file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source/lcd_para.v' (VERI-1328)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_driver.v(57): INFO: back to file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_driver.v' (VERI-2320)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v' (VERI-1482)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(165): INFO: undeclared symbol 'ram_busy', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(169): INFO: undeclared symbol 'ram_ready', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(171): INFO: undeclared symbol 'src_in_ready', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(172): INFO: undeclared symbol 'src_output_valid', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(173): INFO: undeclared symbol 'src_output_ready', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(242): INFO: undeclared symbol 'frame_de', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(246): INFO: undeclared symbol 'newFrame', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(248): INFO: undeclared symbol 'ram_rdata', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(332): INFO: undeclared symbol 'lcd_vs', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(333): INFO: undeclared symbol 'lcd_de', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(334): INFO: undeclared symbol 'lcd_data', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\AddressGen.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\DdsModule.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v' (VERI-1482)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v(152): WARNING: redeclaration of ANSI port 'fifo_data_out' is not allowed (VERI-1372)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ram.v' (VERI-1482)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ram.v(245): INFO: undeclared symbol '_zz_ram_rdata_3', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ram.v(246): INFO: undeclared symbol '_zz_ram_rdata_2', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ram.v(247): INFO: undeclared symbol '_zz_ram_rdata_1', assumed default net type 'wire' (VERI-2561)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ram.v(248): INFO: undeclared symbol '_zz_ram_rdata_0', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\tri_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\src_coef_gen.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v' (VERI-1482)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(207): WARNING: empty statement in sequential block (VERI-1988)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(211): WARNING: empty statement in sequential block (VERI-1988)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(25): WARNING: parameter 'IDLE' becomes localparam in 'database' with formal parameter declaration list (VERI-1199)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(26): WARNING: parameter 'DIN' becomes localparam in 'database' with formal parameter declaration list (VERI-1199)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(27): WARNING: parameter 'DOUT' becomes localparam in 'database' with formal parameter declaration list (VERI-1199)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(28): WARNING: parameter 'WAIT' becomes localparam in 'database' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\KEY_2bit.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\key_counter_scan.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ad_data_recieve.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v' (VERI-1482)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v(755): INFO: analyzing included file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM/bram_ini.vh' (VERI-1328)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v(755): INFO: back to file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v' (VERI-2320)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v(982): INFO: analyzing included file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM/bram_decompose.vh' (VERI-1328)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v(982): INFO: back to file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v' (VERI-2320)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_813d78c54dbb45bb8240db1910501857' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/ADC_FIFO\ADC_FIFO.v' (VERI-1482)
+INFO: Analysis took 0.109972 seconds.
+INFO: 	Analysis took 0.109375 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.192 MB, end = 61.684 MB, delta = 6.492 MB
+INFO: 	Analysis peak virtual memory usage = 61.684 MB
+INFO: Analysis resident set memory usage: begin = 58.756 MB, end = 66.172 MB, delta = 7.416 MB
+INFO: 	Analysis peak resident set memory usage = 66.172 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(7): INFO: compiling module 'OscilloscopeInterfaceTest' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(49): INFO: compiling module 'etx_ddr3_reset_controller' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(116): INFO: compiling module 'ddr_reset_sequencer_f22535be44aa4f1699b3dab9b8079372' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v(163): WARNING: expression size 64 truncated to fit in target size 20 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\DdsModule.v(7): INFO: compiling module 'DdsModule' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\tri_ctrl.v(2): INFO: compiling module 'tri_ctrl' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v(5): INFO: compiling module 'fifo_data_recv' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v(54): WARNING: expression size 13 truncated to fit in target size 12 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v(70): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(49): INFO: compiling module 'WAVE_BUF_FIFO' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(376): INFO: compiling module 'efx_fifo_top_41b5460d540e453c971e2e9b7151951b_renamed_due_excessive_length_1' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_41b5460d540e453c971e2e9b7151951b(MODE="FWFT",RAM_MUX_RATIO=1)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_41b5460d540e453c971e2e9b7151951b(SYNC_CLK=0,MODE="FWFT",ALMOST_FLAG=0,PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(1262): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(1263): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_41b5460d540e453c971e2e9b7151951b(WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_41b5460d540e453c971e2e9b7151951b(STAGE=2,WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=9)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=8)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=7)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=6)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=4)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=3)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=2)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(90): WARNING: actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(93): WARNING: actual bit length 9 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v(185): WARNING: actual bit length 10 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\KEY_2bit.v(31): INFO: compiling module 'KEY_2bit' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\key_counter_scan.v(33): INFO: compiling module 'key_counter_scan(KEY_WIDTH=2)' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\KEY_2bit.v(81): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\KEY_2bit.v(86): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v(7): INFO: compiling module 'CoefGen_With_SRC' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v(1230): INFO: compiling module 'CoefGen' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v(84): INFO: compiling module 'ParallelSampleRateConversion' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(2): INFO: compiling module 'database' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(127): WARNING: expression size 15 truncated to fit in target size 14 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(134): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(143): WARNING: expression size 11 truncated to fit in target size 10 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(226): WARNING: latch inferred for net 'color_out[15]' (VERI-2580)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v(2): INFO: compiling module 'simple_dual_port_ram' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v(19): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(243): WARNING: actual bit length 32 differs from formal bit length 1 for port 're' (VERI-1330)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(254): WARNING: actual bit length 32 differs from formal bit length 1 for port 're' (VERI-1330)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(265): WARNING: actual bit length 32 differs from formal bit length 1 for port 're' (VERI-1330)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(276): WARNING: actual bit length 32 differs from formal bit length 1 for port 're' (VERI-1330)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v(287): WARNING: actual bit length 32 differs from formal bit length 1 for port 're' (VERI-1330)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v(7): INFO: compiling module 'VsyHsyGenerator' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v(137): INFO: compiling module 'PictureGenerator' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v(8527): INFO: compiling module 'RAddressGen' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v(2): INFO: compiling module 'axi4_ctrl' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(49): INFO: compiling module 'W0_FIFO' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(376): INFO: compiling module 'efx_fifo_top_3e6a9a3a292f42bb82f2ab68b2f533aa_renamed_due_excessive_length_2' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_3e6a9a3a292f42bb82f2ab68b2f533aa(MODE="FWFT",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_3e6a9a3a292f42bb82f2ab68b2f533aa_renamed_due_excessive_length_3' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(1262): WARNING: expression size 32 truncated to fit in target size 13 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(1263): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_3e6a9a3a292f42bb82f2ab68b2f533aa(STAGE=2,WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=9)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=8)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=7)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=6)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=4)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=3)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=2)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=13)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_3e6a9a3a292f42bb82f2ab68b2f533aa(STAGE=2,WIDTH=13)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=13)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=12)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=11)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(90): WARNING: actual bit length 12 differs from formal bit length 13 for port 'wr_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(93): WARNING: actual bit length 9 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v(129): WARNING: actual bit length 12 differs from formal bit length 9 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(95): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(49): INFO: compiling module 'R0_FIFO' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(376): INFO: compiling module 'efx_fifo_top_d3aef48d269341d8a19128109cfa8178_renamed_due_excessive_length_4' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(668): INFO: compiling module 'efx_fifo_ram_d3aef48d269341d8a19128109cfa8178(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=16,WADDR_WIDTH=8,RADDR_WIDTH=11,OUTPUT_REG=0,RAM_MUX_RATIO=8)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(705): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(986): INFO: compiling module 'efx_fifo_ctl_d3aef48d269341d8a19128109cfa8178_renamed_due_excessive_length_5' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(1256): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(1257): WARNING: expression size 32 truncated to fit in target size 12 (VERI-1209)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_d3aef48d269341d8a19128109cfa8178(WIDTH=12)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_d3aef48d269341d8a19128109cfa8178(STAGE=2,WIDTH=12)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=12)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=11)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=10)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=9)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=8)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=7)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=6)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=4)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=3)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(199): INFO: compiling module 'efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=2)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(287): INFO: compiling module 'efx_fifo_bin2gray_d3aef48d269341d8a19128109cfa8178(WIDTH=9)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(116): INFO: compiling module 'efx_fifo_datasync_d3aef48d269341d8a19128109cfa8178(STAGE=2,WIDTH=9)' (VERI-1018)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(90): WARNING: actual bit length 8 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(93): WARNING: actual bit length 11 differs from formal bit length 12 for port 'rd_datacount_o' (VERI-1330)
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v(82): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v(294): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v(311): WARNING: expression size 25 truncated to fit in target size 24 (VERI-1209)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_driver.v(36): INFO: compiling module 'lcd_driver' (VERI-1018)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(169): WARNING: net 'ram_ready' does not have a driver (VDB-1002)
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v(141): WARNING: input port 'tri_level[7]' remains unconnected for this instance (VDB-1053)
+INFO: Elaboration took 0.258179 seconds.
+INFO: 	Elaboration took 0.25 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 61.684 MB, end = 104.396 MB, delta = 42.712 MB
+INFO: 	Elaboration peak virtual memory usage = 104.396 MB
+INFO: Elaboration resident set memory usage: begin = 66.184 MB, end = 108.644 MB, delta = 42.46 MB
+INFO: 	Elaboration peak resident set memory usage = 108.644 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.1/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0116531 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 105.164 MB, end = 105.164 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 106.756 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 109.736 MB, end = 109.764 MB, delta = 0.028 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 111.144 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:705)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:298)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[31]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[30]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[29]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[28]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[27]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[26]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[25]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[24]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[23]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[22]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[21]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[20]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[19]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[18]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[17]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[16]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[15]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[14]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] Removing redundant signal : bit_xor.nex_bit[13]. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:299)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:82)
+[EFX-0266 WARNING] Module Instance 'data_ram0' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'data_ram1' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'data_ram2' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'data_ram3' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'data_ram4' input pin tied to constant (re=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'tri_ctrl_o.tri_level[7]'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v:141)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v:705)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "OscilloscopeInterfaceTest"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_f22535be44aa4f1699b3dab9b8079372" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_f22535be44aa4f1699b3dab9b8079372" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "etx_ddr3_reset_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "etx_ddr3_reset_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdsModule" begin
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz_io_signalOut_1' select size : 7 output width: 8
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdsModule" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tri_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tri_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_41b5460d540e453c971e2e9b7151951b(MODE="FWFT",RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_41b5460d540e453c971e2e9b7151951b(MODE="FWFT",RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_41b5460d540e453c971e2e9b7151951b(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_41b5460d540e453c971e2e9b7151951b(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_41b5460d540e453c971e2e9b7151951b(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_41b5460d540e453c971e2e9b7151951b(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_41b5460d540e453c971e2e9b7151951b(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_41b5460d540e453c971e2e9b7151951b(SYNC_CLK=0,MODE="FWFT",ALMOST_FLAG=0,PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_41b5460d540e453c971e2e9b7151951b(SYNC_CLK=0,MODE="FWFT",ALMOST_FLAG=0,PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1,HANDSHAKE_FLAG=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_41b5460d540e453c971e2e9b7151951b_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_41b5460d540e453c971e2e9b7151951b_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "WAVE_BUF_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "WAVE_BUF_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_data_recv" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_data_recv" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "key_counter_scan(KEY_WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "key_counter_scan(KEY_WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "KEY_2bit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "KEY_2bit" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CoefGen" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CoefGen" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ParallelSampleRateConversion" begin
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8391_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1204)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8419_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1205)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8447_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1206)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8475_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1207)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8503_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1208)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8531_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1209)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8631_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1214)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8659_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1215)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8687_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1216)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8715_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1217)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8743_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1218)
+[EFX-0666 WARNING] Mapping into logic multiplier 'n8771_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1219)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ParallelSampleRateConversion" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CoefGen_With_SRC" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CoefGen_With_SRC" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "database" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "database" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RAddressGen" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RAddressGen" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PictureGenerator" begin
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_9' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_18' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_2_1' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_2_9' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_2_18' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_4_1' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_4_9' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_4_18' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_6_1' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_6_9' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_6_18' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_8_1' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_8_9' select size : 7 output width: 8
+[EFX-0000 INFO] ... Wide MUX mapping to ram-net, output: '_zz__zz_when_PictureGenerator_l138_8_18' select size : 7 output width: 8
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PictureGenerator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VsyHsyGenerator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VsyHsyGenerator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_3e6a9a3a292f42bb82f2ab68b2f533aa(MODE="FWFT",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)" begin
+... address typerange is packed : 0
+	 dimension : 2
+	 bounds : 4095 : 0
+... data typerange is packed : 1
+	  dimension : 1
+	 bounds : 15 : 0
+### 15:0
+### 7:0
+### 511:0
+### new type range 
+... address typerange is packed : 0
+	 dimension : 3
+	 bounds : 511 : 0
+... data typerange is packed : 0
+	  dimension : 2
+	 bounds : 7 : 0
+... data2 typerange is packed : 0
+	  dimension : 1
+	 bounds : 15 : 0
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_3e6a9a3a292f42bb82f2ab68b2f533aa(MODE="FWFT",WR_DEPTH=4096,WDATA_WIDTH=16,RDATA_WIDTH=128,WADDR_WIDTH=12,OUTPUT_REG=0,RAM_MUX_RATIO=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e6a9a3a292f42bb82f2ab68b2f533aa(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e6a9a3a292f42bb82f2ab68b2f533aa(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e6a9a3a292f42bb82f2ab68b2f533aa(STAGE=2,WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_3e6a9a3a292f42bb82f2ab68b2f533aa(STAGE=2,WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_3e6a9a3a292f42bb82f2ab68b2f533aa(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_3e6a9a3a292f42bb82f2ab68b2f533aa_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_3e6a9a3a292f42bb82f2ab68b2f533aa_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_3e6a9a3a292f42bb82f2ab68b2f533aa_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_3e6a9a3a292f42bb82f2ab68b2f533aa_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_d3aef48d269341d8a19128109cfa8178(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=16,WADDR_WIDTH=8,RADDR_WIDTH=11,OUTPUT_REG=0,RAM_MUX_RATIO=8)" begin
+... address typerange is packed : 0
+	 dimension : 2
+	 bounds : 2047 : 0
+... data typerange is packed : 1
+	  dimension : 1
+	 bounds : 15 : 0
+### 15:0
+### 7:0
+### 255:0
+### new type range 
+... address typerange is packed : 0
+	 dimension : 3
+	 bounds : 255 : 0
+... data typerange is packed : 0
+	  dimension : 2
+	 bounds : 7 : 0
+... data2 typerange is packed : 0
+	  dimension : 1
+	 bounds : 15 : 0
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_d3aef48d269341d8a19128109cfa8178(MODE="FWFT",WR_DEPTH=256,RD_DEPTH=2048,WDATA_WIDTH=128,RDATA_WIDTH=16,WADDR_WIDTH=8,RADDR_WIDTH=11,OUTPUT_REG=0,RAM_MUX_RATIO=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_d3aef48d269341d8a19128109cfa8178(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_d3aef48d269341d8a19128109cfa8178(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_d3aef48d269341d8a19128109cfa8178(STAGE=2,WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_d3aef48d269341d8a19128109cfa8178(STAGE=2,WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d3aef48d269341d8a19128109cfa8178(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_d3aef48d269341d8a19128109cfa8178(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_d3aef48d269341d8a19128109cfa8178(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_d3aef48d269341d8a19128109cfa8178(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_d3aef48d269341d8a19128109cfa8178(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_d3aef48d269341d8a19128109cfa8178_renamed_due_excessive_length_5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_d3aef48d269341d8a19128109cfa8178_renamed_due_excessive_length_5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_d3aef48d269341d8a19128109cfa8178_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_d3aef48d269341d8a19128109cfa8178_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "OscilloscopeInterfaceTest" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 793 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "OscilloscopeInterfaceTest" end (Real time : 2s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 3997, ed: 13355, lv: 9, pw: 8700.33
+[EFX-0000 INFO] ... LUT mapping end (Real time : 24s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s)
+[EFX-0000 INFO] ... High Fanout Net: n8630 will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: n8618 will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: n8593 will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: n8581 will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[11] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[10] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[9] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[8] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[7] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[6] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[5] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[4] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[3] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[2] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[1] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/raddr[0] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: u_interpolation/src/clkDiv2 will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: u_VsyHsyGenerator/picture/_zz__zz_when_PictureGenerator_l138_16[0] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[11] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[10] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[9] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[8] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[7] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[6] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[5] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[4] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[3] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[2] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[1] will be replicated to reduce fanout.
+[EFX-0000 INFO] ... High Fanout Net: database_0/waddr[0] will be replicated to reduce fanout.
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port clk_12M_i is unconnected and will be removed
+WARNING: Input/Inout Port clk_24M_i is unconnected and will be removed
+WARNING: Input/Inout Port tx_fastclk is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RID_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RLAST_0 is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RRESP_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_RRESP_0[0] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[7] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[6] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[5] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[4] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[3] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[2] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[1] is unconnected and will be removed
+WARNING: Input/Inout Port DdrCtrl_BID_0[0] is unconnected and will be removed
+INFO: Found 22 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0876951 seconds.
+INFO: 	VDB Netlist Checker took 0.078125 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 193.572 MB, end = 193.572 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 214.708 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 196.52 MB, end = 196.584 MB, delta = 0.064 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 213.88 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'OscilloscopeInterfaceTest' to Verilog file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	630
+[EFX-0000 INFO] EFX_LUT4        : 	4028
+[EFX-0000 INFO] EFX_MULT        : 	12
+[EFX-0000 INFO] EFX_FF          : 	2461
+[EFX-0000 INFO] EFX_RAM_5K      : 	225
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 

@@ -1,0 +1,89 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Date: Sun Sep 24 11:31:20 2023
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T35F324
+Top-level Entity Name: T35_Sensor_DDR3_LCD_Test
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 138 / 947 (14.57%)
+Outputs: 271 / 1416 (19.14%)
+Clocks: 4 / 16 (25.00%)
+Logic Elements: 820 / 31680 (2.59%)
+	LE: LUTs/Adders: 553 / 31680 (1.75%)
+	LE: Registers: 543 / 30720 (1.77%)
+Memory Blocks: 24 / 288 (8.33%)
+Multipliers: 0 / 120 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++---------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                             NAME                              | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++---------------------------------------------------------------+------+------------+-------------+--------------+------------+
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$m12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$l12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$k12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$o1  | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+|  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$2  | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$j12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$n12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+|  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$2  | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$12  | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12 | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12 | SDP  |     8      |      1      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12 | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12 | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12 | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1  | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12 | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
+| u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram__D$12  | SDP  |     2      |     16      | READ_UNKNOWN |   false    |
++---------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|       cmos_pclk        |    Input     |
+|    DdrCtrl_BID_0[0]    |    Input     |
+|    DdrCtrl_BID_0[1]    |    Input     |
+|    DdrCtrl_BID_0[2]    |    Input     |
+|    DdrCtrl_BID_0[3]    |    Input     |
+|    DdrCtrl_BID_0[4]    |    Input     |
+|    DdrCtrl_BID_0[5]    |    Input     |
+|    DdrCtrl_BID_0[6]    |    Input     |
+|    DdrCtrl_BID_0[7]    |    Input     |
+|    DdrCtrl_RID_0[0]    |    Input     |
+|    DdrCtrl_RID_0[1]    |    Input     |
+|    DdrCtrl_RID_0[2]    |    Input     |
+|    DdrCtrl_RID_0[3]    |    Input     |
+|    DdrCtrl_RID_0[4]    |    Input     |
+|    DdrCtrl_RID_0[5]    |    Input     |
+|    DdrCtrl_RID_0[6]    |    Input     |
+|    DdrCtrl_RID_0[7]    |    Input     |
+|    DdrCtrl_RLAST_0     |    Input     |
+|   DdrCtrl_RRESP_0[0]   |    Input     |
+|   DdrCtrl_RRESP_0[1]   |    Input     |
+|        clk_cmos        |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 4 seconds

@@ -1,0 +1,502 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150.4.10 
+Compiled: Sep  6 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0830219 seconds.
+	VDB Netlist Checker took 0.078125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 32.304 MB, end = 32.324 MB, delta = 0.02 MB
+	VDB Netlist Checker peak virtual memory usage = 52.748 MB
+VDB Netlist Checker resident set memory usage: begin = 44.052 MB, end = 44.356 MB, delta = 0.304 MB
+	VDB Netlist Checker peak resident set memory usage = 63.268 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.interface.csv'.
+Successfully processed interface constraints file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.interface.csv".
+Creating interface clock pin DCO_N.
+Creating interface clock buffer DCO_N~CLKBUF.
+Creating interface clock pin DCO_P.
+Creating interface clock buffer DCO_P~CLKBUF.
+Creating interface clock buffer tx_fastclk~CLKBUF.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #0(clk_12M_i) has no fanout.
+Removing input.
+logical_block #1(clk_24M_i) has no fanout.
+Removing input.
+logical_block #223(DdrCtrl_RID_0[7]) has no fanout.
+Removing input.
+logical_block #224(DdrCtrl_RID_0[6]) has no fanout.
+Removing input.
+logical_block #225(DdrCtrl_RID_0[5]) has no fanout.
+Removing input.
+logical_block #226(DdrCtrl_RID_0[4]) has no fanout.
+Removing input.
+logical_block #227(DdrCtrl_RID_0[3]) has no fanout.
+Removing input.
+logical_block #228(DdrCtrl_RID_0[2]) has no fanout.
+Removing input.
+logical_block #229(DdrCtrl_RID_0[1]) has no fanout.
+Removing input.
+logical_block #230(DdrCtrl_RID_0[0]) has no fanout.
+Removing input.
+logical_block #359(DdrCtrl_RLAST_0) has no fanout.
+Removing input.
+logical_block #362(DdrCtrl_RRESP_0[1]) has no fanout.
+Removing input.
+logical_block #363(DdrCtrl_RRESP_0[0]) has no fanout.
+Removing input.
+logical_block #364(DdrCtrl_BID_0[7]) has no fanout.
+Removing input.
+logical_block #365(DdrCtrl_BID_0[6]) has no fanout.
+Removing input.
+logical_block #366(DdrCtrl_BID_0[5]) has no fanout.
+Removing input.
+logical_block #367(DdrCtrl_BID_0[4]) has no fanout.
+Removing input.
+logical_block #368(DdrCtrl_BID_0[3]) has no fanout.
+Removing input.
+logical_block #369(DdrCtrl_BID_0[2]) has no fanout.
+Removing input.
+logical_block #370(DdrCtrl_BID_0[1]) has no fanout.
+Removing input.
+logical_block #371(DdrCtrl_BID_0[0]) has no fanout.
+Removing input.
+Pass 0: Swept away 21 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 21 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 21 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.vdb".
+Netlist pre-processing took 0.223255 seconds.
+	Netlist pre-processing took 0.21875 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.3 MB, end = 45.384 MB, delta = 33.084 MB
+	Netlist pre-processing peak virtual memory usage = 52.748 MB
+Netlist pre-processing resident set memory usage: begin = 24.368 MB, end = 57.312 MB, delta = 32.944 MB
+	Netlist pre-processing peak resident set memory usage = 63.268 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_pnr\OscilloscopeInterfaceTest.net_proto" took 0.007 seconds
+Creating IO constraints file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_pnr\OscilloscopeInterfaceTest.io_place'
+Packing took 0.0347151 seconds.
+	Packing took 0.03125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 36.044 MB, end = 41.776 MB, delta = 5.732 MB
+	Packing peak virtual memory usage = 52.748 MB
+Packing resident set memory usage: begin = 47.684 MB, end = 53.792 MB, delta = 6.108 MB
+	Packing peak resident set memory usage = 63.268 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_pnr\OscilloscopeInterfaceTest.net_proto
+Read proto netlist for file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_pnr\OscilloscopeInterfaceTest.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.17 seconds
+Packed netlist loading took 0.191562 seconds.
+	Packed netlist loading took 0.171875 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 41.776 MB, end = 140.228 MB, delta = 98.452 MB
+	Packed netlist loading peak virtual memory usage = 179.372 MB
+Packed netlist loading resident set memory usage: begin = 53.8 MB, end = 148.736 MB, delta = 94.936 MB
+	Packed netlist loading peak resident set memory usage = 187.764 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+WARNING(1): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] No valid object(s) found for 'Ddr_Clk'
+WARNING(2): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] No valid pin(s) found for clock
+WARNING(3): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:16] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:18] No valid object(s) found for 'clk_cmos'
+WARNING(5): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:18] No valid pin(s) found for clock
+WARNING(6): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:18] Unable to run 'create_clock' constraint due to warnings found
+WARNING(7): unrecognised option '-group(DCO_P)'
+WARNING(8): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:31] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING(9): No ports matched 'DBA[0]'
+WARNING(10): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:61] No valid object(s) found for ''
+WARNING(11): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:61] set_input_delay: No valid input port(s) found
+WARNING(12): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:61] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(13): No ports matched 'DBA[0]'
+WARNING(14): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:62] No valid object(s) found for ''
+WARNING(15): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:62] set_input_delay: No valid input port(s) found
+WARNING(16): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:62] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(17): No ports matched 'DBA[1]'
+WARNING(18): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:63] No valid object(s) found for ''
+WARNING(19): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:63] set_input_delay: No valid input port(s) found
+WARNING(20): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:63] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(21): No ports matched 'DBA[1]'
+WARNING(22): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:64] No valid object(s) found for ''
+WARNING(23): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:64] set_input_delay: No valid input port(s) found
+WARNING(24): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:64] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(25): No ports matched 'DBA[2]'
+WARNING(26): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:65] No valid object(s) found for ''
+WARNING(27): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:65] set_input_delay: No valid input port(s) found
+WARNING(28): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:65] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(29): No ports matched 'DBA[2]'
+WARNING(30): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:66] No valid object(s) found for ''
+WARNING(31): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:66] set_input_delay: No valid input port(s) found
+WARNING(32): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(33): No ports matched 'DBA[3]'
+WARNING(34): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:67] No valid object(s) found for ''
+WARNING(35): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:67] set_input_delay: No valid input port(s) found
+WARNING(36): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(37): No ports matched 'DBA[3]'
+WARNING(38): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:68] No valid object(s) found for ''
+WARNING(39): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:68] set_input_delay: No valid input port(s) found
+WARNING(40): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(41): No ports matched 'DBA[4]'
+WARNING(42): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:69] No valid object(s) found for ''
+WARNING(43): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:69] set_input_delay: No valid input port(s) found
+WARNING(44): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(45): No ports matched 'DBA[4]'
+WARNING(46): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:70] No valid object(s) found for ''
+WARNING(47): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:70] set_input_delay: No valid input port(s) found
+WARNING(48): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(49): No ports matched 'DBA[5]'
+WARNING(50): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:71] No valid object(s) found for ''
+WARNING(51): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:71] set_input_delay: No valid input port(s) found
+WARNING(52): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:71] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(53): No ports matched 'DBA[5]'
+WARNING(54): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:72] No valid object(s) found for ''
+WARNING(55): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:72] set_input_delay: No valid input port(s) found
+WARNING(56): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:72] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(57): No ports matched 'DBA[6]'
+WARNING(58): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:73] No valid object(s) found for ''
+WARNING(59): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:73] set_input_delay: No valid input port(s) found
+WARNING(60): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:73] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(61): No ports matched 'DBA[6]'
+WARNING(62): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:74] No valid object(s) found for ''
+WARNING(63): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:74] set_input_delay: No valid input port(s) found
+WARNING(64): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:74] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(65): No ports matched 'DBA[7]'
+WARNING(66): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:75] No valid object(s) found for ''
+WARNING(67): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:75] set_input_delay: No valid input port(s) found
+WARNING(68): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:75] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(69): No ports matched 'DBA[7]'
+WARNING(70): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:76] No valid object(s) found for ''
+WARNING(71): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:76] set_input_delay: No valid input port(s) found
+WARNING(72): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:76] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(73): No ports matched 'DBB[0]'
+WARNING(74): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:77] No valid object(s) found for ''
+WARNING(75): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:77] set_input_delay: No valid input port(s) found
+WARNING(76): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:77] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(77): No ports matched 'DBB[0]'
+WARNING(78): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:78] No valid object(s) found for ''
+WARNING(79): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:78] set_input_delay: No valid input port(s) found
+WARNING(80): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:78] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(81): No ports matched 'DBB[1]'
+WARNING(82): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:79] No valid object(s) found for ''
+WARNING(83): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:79] set_input_delay: No valid input port(s) found
+WARNING(84): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:79] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(85): No ports matched 'DBB[1]'
+WARNING(86): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:80] No valid object(s) found for ''
+WARNING(87): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:80] set_input_delay: No valid input port(s) found
+WARNING(88): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:80] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(89): No ports matched 'DBB[2]'
+WARNING(90): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:81] No valid object(s) found for ''
+WARNING(91): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:81] set_input_delay: No valid input port(s) found
+WARNING(92): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:81] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(93): No ports matched 'DBB[2]'
+WARNING(94): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:82] No valid object(s) found for ''
+WARNING(95): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:82] set_input_delay: No valid input port(s) found
+WARNING(96): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:82] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(97): No ports matched 'DBB[3]'
+WARNING(98): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:83] No valid object(s) found for ''
+WARNING(99): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:83] set_input_delay: No valid input port(s) found
+WARNING(100): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:83] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(101): No ports matched 'DBB[3]'
+WARNING(102): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:84] No valid object(s) found for ''
+WARNING(103): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:84] set_input_delay: No valid input port(s) found
+WARNING(104): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:84] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(105): No ports matched 'DBB[4]'
+WARNING(106): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:85] No valid object(s) found for ''
+WARNING(107): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:85] set_input_delay: No valid input port(s) found
+WARNING(108): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:85] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(109): No ports matched 'DBB[4]'
+WARNING(110): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:86] No valid object(s) found for ''
+WARNING(111): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:86] set_input_delay: No valid input port(s) found
+WARNING(112): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:86] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(113): No ports matched 'DBB[5]'
+WARNING(114): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:87] No valid object(s) found for ''
+WARNING(115): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:87] set_input_delay: No valid input port(s) found
+WARNING(116): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:87] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(117): No ports matched 'DBB[5]'
+WARNING(118): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:88] No valid object(s) found for ''
+WARNING(119): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:88] set_input_delay: No valid input port(s) found
+WARNING(120): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:88] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(121): No ports matched 'DBB[6]'
+WARNING(122): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:89] No valid object(s) found for ''
+WARNING(123): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:89] set_input_delay: No valid input port(s) found
+WARNING(124): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:89] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(125): No ports matched 'DBB[6]'
+WARNING(126): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:90] No valid object(s) found for ''
+WARNING(127): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:90] set_input_delay: No valid input port(s) found
+WARNING(128): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:90] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(129): No ports matched 'DBB[7]'
+WARNING(130): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:91] No valid object(s) found for ''
+WARNING(131): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:91] set_input_delay: No valid input port(s) found
+WARNING(132): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:91] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(133): No ports matched 'DBB[7]'
+WARNING(134): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:92] No valid object(s) found for ''
+WARNING(135): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:92] set_input_delay: No valid input port(s) found
+WARNING(136): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:92] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(137): No ports matched 'pdwn'
+WARNING(138): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:93] No valid object(s) found for ''
+WARNING(139): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:93] set_output_delay: No valid output port(s) found
+WARNING(140): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:93] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(141): No ports matched 'pdwn'
+WARNING(142): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:94] No valid object(s) found for ''
+WARNING(143): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:94] set_output_delay: No valid output port(s) found
+WARNING(144): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:94] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(145): No ports matched 'DS'
+WARNING(146): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:95] No valid object(s) found for ''
+WARNING(147): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:95] set_output_delay: No valid output port(s) found
+WARNING(148): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:95] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(149): No ports matched 'DS'
+WARNING(150): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:96] No valid object(s) found for ''
+WARNING(151): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:96] set_output_delay: No valid output port(s) found
+WARNING(152): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:96] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(153): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(154): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:194] No valid object(s) found for ''
+WARNING(155): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:194] set_input_delay: No valid input port(s) found
+WARNING(156): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:194] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(157): No ports matched 'DdrCtrl_BID_0[*]'
+WARNING(158): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:195] No valid object(s) found for ''
+WARNING(159): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:195] set_input_delay: No valid input port(s) found
+WARNING(160): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:195] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(161): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(162): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:200] No valid object(s) found for ''
+WARNING(163): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:200] set_input_delay: No valid input port(s) found
+WARNING(164): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:200] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(165): No ports matched 'DdrCtrl_RID_0[*]'
+WARNING(166): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:201] No valid object(s) found for ''
+WARNING(167): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:201] set_input_delay: No valid input port(s) found
+WARNING(168): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:201] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(169): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(170): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:202] No valid object(s) found for ''
+WARNING(171): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:202] set_input_delay: No valid input port(s) found
+WARNING(172): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:202] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(173): No ports matched 'DdrCtrl_RLAST_0'
+WARNING(174): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:203] No valid object(s) found for ''
+WARNING(175): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:203] set_input_delay: No valid input port(s) found
+WARNING(176): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:203] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(177): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(178): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(179): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:204] No valid object(s) found for ''
+WARNING(180): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:204] set_input_delay: No valid input port(s) found
+WARNING(181): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:204] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(182): No ports matched 'DdrCtrl_RRESP_0[1]'
+WARNING(183): No ports matched 'DdrCtrl_RRESP_0[0]'
+WARNING(184): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:205] No valid object(s) found for ''
+WARNING(185): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:205] set_input_delay: No valid input port(s) found
+WARNING(186): [SDC C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc:205] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/T35_Sensor_DDR3_LCD_Test.sdc' parsed successfully.
+7 clocks (including virtual clocks), 132 inputs and 248 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.interface.csv'.
+Successfully processed interface constraints file "C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.interface.csv".
+Writing IO placement constraints to 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow\OscilloscopeInterfaceTest.interface.io'.
+
+Reading placement constraints from 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow\OscilloscopeInterfaceTest.interface.io'.
+
+Reading placement constraints from 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_pnr\OscilloscopeInterfaceTest.io_place'.
+The driver, PllLocked[0], of control net, PllLocked[0], should be placed at a dedicated control pad location.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 64 synchronizers as follows: 
+	Synchronizer 0:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 1:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 2:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 3:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 4:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 5:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 6:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 7:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 8:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 9:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 10:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 11:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 12:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 13:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 14:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 15:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 16:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][1]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[1]~FF
+	Synchronizer 17:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 18:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 19:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 20:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 21:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 22:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 23:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 24:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 25:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 26:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 27:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][1]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[1]~FF
+	Synchronizer 28:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 29:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 30:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 31:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][0]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[0]~FF
+	Synchronizer 32:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][2]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[2]~FF
+	Synchronizer 33:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 34:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 35:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 36:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 37:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 38:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 39:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 40:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][2]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[2]~FF
+	Synchronizer 41:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 42:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][0]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[0]~FF
+	Synchronizer 43:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF
+	Synchronizer 44:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF
+	Synchronizer 45:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][3]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[3]~FF
+	Synchronizer 46:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF
+	Synchronizer 47:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF
+	Synchronizer 48:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF
+	Synchronizer 49:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][9]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 50:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][10]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[10]~FF
+	Synchronizer 51:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][11]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[11]~FF
+	Synchronizer 52:  u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/pipe_reg[0][12]~FF u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[12]~FF
+	Synchronizer 53:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][5]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[5]~FF
+	Synchronizer 54:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/genblk2.rd_rst[0]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 55:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][4]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[4]~FF
+	Synchronizer 56:  u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/genblk2.wr_rst[0]~FF u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 57:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][3]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[3]~FF
+	Synchronizer 58:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][6]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[6]~FF
+	Synchronizer 59:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][7]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[7]~FF
+	Synchronizer 60:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][8]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[8]~FF
+	Synchronizer 61:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][9]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[9]~FF
+	Synchronizer 62:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][10]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[10]~FF
+	Synchronizer 63:  u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/pipe_reg[0][11]~FF u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk7.raddr_cntr_gry_sync[11]~FF
+Create C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow\OscilloscopeInterfaceTest_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 14 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      954483            2575         2.0%
+          2      568969            2364         3.7%
+          3      371589            1984         6.3%
+          4      309879            2364        11.2%
+          5      289750            1425        20.2%
+          6      259136            1873        31.1%
+          7      244755            1215        39.9%
+          8      239536            1199        43.4%
+          9      243098            1012        45.7%
+         10      248173             975        48.4%
+         11      267872            1291        50.1%
+         12      273905            1213        50.7%
+         13      300792            1213        52.3%
+         14      288301            1213        53.5%
+         15      305369             675        55.0%
+         16      276293            1213        55.0%
+         17      300778            1213        58.0%
+         18      274289            1213        58.0%
+         19      302565            1213        60.7%
+         20      273800            1213        60.7%
+         21      307853             557        64.3%
+         22      302981            1034        64.5%
+         23      283537            1213        64.5%
+         24      260096            1213        64.5%
+         25      248709            1213        66.0%
+         26      264743             927        66.2%
+         27      250071            1213        66.2%
+         28      262186            1213        67.3%
+         29      247503            1213        68.6%
+         30      246796             967        70.6%
+         31      251583            1213        71.0%
+         32      251387            1213        71.1%
+         33      246509            1176        71.6%
+         34      242247             988        73.4%
+         35      252706            1076        74.3%
+         36      252343             880        74.3%
+         37      244196             818        74.8%
+         38      241843            1213        76.4%
+         39      235047            1190        76.9%
+         40      241856             921        77.8%
+         41      236865             983        77.8%
+         42      240546             490        79.6%
+         43      239165             680        80.1%
+         44      236017             466        82.1%
+         45      239015             490        82.1%
+         46      241235             490        82.8%
+         47      237526             655        82.8%
+         48      238823             490        84.8%
+         49      234992            -245        84.8%
+         50      238595              88        87.1%
+         51      233739              88        87.1%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      233739            3269        30.0
+          1      201181            2422        30.0
+          2      157474            2066        30.0
+          3      141956            2066        29.7
+          4      133728            2055        29.3
+          5      130767            2153        28.5
+          6      127030            2274        27.7
+          7      123151            2421        26.7
+          8      121085            2421        25.8
+          9      119064            2055        24.6
+         10      117404            2033        23.6
+         11      115156            2033        22.4
+         12      114057            2302        21.4
+         13      112533            2344        20.4
+         14      111253            2344        19.4
+         15      109557            2417        18.4
+         16      109028            2417        17.5
+         17      107074            2417        16.5
+         18      105989            2123        15.6
+         19      105082            2023        14.6
+         20      104516            2033        13.7
+         21      103743            2033        12.8
+         22      102771            2175        12.0
+         23      101875            2477        11.2
+         24      101062            2323        10.5
+         25      100645            2131         9.8
+         26      100048            2464         9.1
+         27       99452            2464         8.5
+         28       98823            2420         7.9
+         29       98305            2395         7.3
+         30       97987            2059         6.8
+         31       97358            2464         6.1
+         32       96340            2313         5.5
+Generate C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow\OscilloscopeInterfaceTest_after_qp.qdelay
+Placement successful: 6056 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.312813 at 66,123
+Congestion-weighted HPWL per net: 12.3147
+
+Reading placement constraints from 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.qplace'.
+Finished Realigning Types (1738 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.place'
+Placement took 18.2115 seconds.
+	Placement took 26.3438 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 162.644 MB, end = 212.168 MB, delta = 49.524 MB
+	Placement peak virtual memory usage = 613.256 MB
+Placement resident set memory usage: begin = 171.412 MB, end = 216.12 MB, delta = 44.708 MB
+	Placement peak resident set memory usage = 610.068 MB
+***** Ending stage placement *****
+

@@ -1,0 +1,1721 @@
+Efinity Synthesis report for project OscilloscopeInterfaceTest
+Version: 2023.1.150.4.10
+Generated at: Oct 17, 2023 10:44:17
+Copyright (C) 2013 - 2023  Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : OscilloscopeInterfaceTest
+
+### ### File List (begin) ### ### ###
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_driver.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\lcd_para.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\OscilloscopeInterfaceTest.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\AddressGen.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\DdsModule.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\fifo.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ram.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\tri_ctrl.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\src_coef_gen.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\database.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\KEY_2bit.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\key_counter_scan.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v
+C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ad_data_recieve.v
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/etx_ddr3_reset_controller\etx_ddr3_reset_controller.v
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_MAPPING_RAM\WAVE_MAPPING_RAM.v
+C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/ADC_FIFO\ADC_FIFO.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/WAVE_BUF_FIFO\WAVE_BUF_FIFO.v:705)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/W0_FIFO\W0_FIFO.v:705)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8391_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1204)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8419_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1205)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8447_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1206)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8475_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1207)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8503_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1208)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8531_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1209)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8631_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1214)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8659_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1215)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8687_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1216)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8715_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1217)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8743_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1218)
+"MULT|SYN-0666" : Mapping into logic multiplier 'n8771_pp_0x1'. (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v:1219)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 83
+Total number of FFs with enable signals: 1771
+CE signal <U0_DDR_Reset/u_ddr_reset_sequencer/equal_21/n3>, number of controlling flip flops: 1
+CE signal <U0_DDR_Reset/u_ddr_reset_sequencer/n15>, number of controlling flip flops: 21
+CE signal <n7_2>, number of controlling flip flops: 8
+CE signal <ceg_net3940>, number of controlling flip flops: 3
+CE signal <u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 10
+CE signal <ceg_net20>, number of controlling flip flops: 1
+CE signal <u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 20
+CE signal <u_key/n18>, number of controlling flip flops: 2
+CE signal <src_req>, number of controlling flip flops: 2
+CE signal <u_key/u_key_counter_scan/equal_18/n39>, number of controlling flip flops: 2
+CE signal <u_interpolation/coefGen_1/n2232>, number of controlling flip flops: 11
+CE signal <u_interpolation/coefGen_1/n2228>, number of controlling flip flops: 1
+CE signal <u_interpolation/coefGen_1/n2235>, number of controlling flip flops: 4
+CE signal <u_interpolation/coefGen_1/when_CoefGen_l51>, number of controlling flip flops: 2
+CE signal <u_interpolation/coefGen_1/n2230>, number of controlling flip flops: 1
+CE signal <src_in_ready>, number of controlling flip flops: 16
+CE signal <u_interpolation/src/outputCount_value[0]>, number of controlling flip flops: 3
+CE signal <u_interpolation/src/when_ParallelSRC_l195>, number of controlling flip flops: 8
+CE signal <ceg_net29>, number of controlling flip flops: 16
+CE signal <ceg_net34>, number of controlling flip flops: 16
+CE signal <ceg_net39>, number of controlling flip flops: 16
+CE signal <ceg_net44>, number of controlling flip flops: 16
+CE signal <ceg_net49>, number of controlling flip flops: 16
+CE signal <ceg_net54>, number of controlling flip flops: 16
+CE signal <ceg_net59>, number of controlling flip flops: 16
+CE signal <ceg_net64>, number of controlling flip flops: 16
+CE signal <ceg_net69>, number of controlling flip flops: 16
+CE signal <ceg_net74>, number of controlling flip flops: 16
+CE signal <ceg_net79>, number of controlling flip flops: 16
+CE signal <ceg_net84>, number of controlling flip flops: 16
+CE signal <ceg_net89>, number of controlling flip flops: 16
+CE signal <ceg_net94>, number of controlling flip flops: 16
+CE signal <ceg_net99>, number of controlling flip flops: 16
+CE signal <ceg_net104>, number of controlling flip flops: 16
+CE signal <ceg_net109>, number of controlling flip flops: 16
+CE signal <ceg_net114>, number of controlling flip flops: 16
+CE signal <ceg_net119>, number of controlling flip flops: 16
+CE signal <ceg_net124>, number of controlling flip flops: 16
+CE signal <ceg_net129>, number of controlling flip flops: 16
+CE signal <ceg_net134>, number of controlling flip flops: 16
+CE signal <ceg_net139>, number of controlling flip flops: 16
+CE signal <ceg_net144>, number of controlling flip flops: 16
+CE signal <ceg_net149>, number of controlling flip flops: 16
+CE signal <ceg_net154>, number of controlling flip flops: 16
+CE signal <ceg_net159>, number of controlling flip flops: 16
+CE signal <ceg_net164>, number of controlling flip flops: 16
+CE signal <ceg_net169>, number of controlling flip flops: 16
+CE signal <ceg_net174>, number of controlling flip flops: 16
+CE signal <ceg_net179>, number of controlling flip flops: 16
+CE signal <ceg_net184>, number of controlling flip flops: 16
+CE signal <ceg_net189>, number of controlling flip flops: 16
+CE signal <ceg_net194>, number of controlling flip flops: 16
+CE signal <ceg_net199>, number of controlling flip flops: 16
+CE signal <ceg_net204>, number of controlling flip flops: 16
+CE signal <ceg_net3514>, number of controlling flip flops: 4
+CE signal <u_interpolation/src/clkDiv2>, number of controlling flip flops: 71
+CE signal <n11190>, number of controlling flip flops: 100
+CE signal <ceg_net249>, number of controlling flip flops: 56
+CE signal <n11191>, number of controlling flip flops: 100
+CE signal <n11192>, number of controlling flip flops: 96
+CE signal <n11193>, number of controlling flip flops: 95
+CE signal <n11194>, number of controlling flip flops: 100
+CE signal <n11195>, number of controlling flip flops: 90
+CE signal <n11196>, number of controlling flip flops: 100
+CE signal <n11197>, number of controlling flip flops: 100
+CE signal <PllLocked[0]>, number of controlling flip flops: 20
+CE signal <database_0/raddr[13]>, number of controlling flip flops: 2
+CE signal <ceg_net3767>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/equal_19/n3>, number of controlling flip flops: 2
+CE signal <u_axi4_ctrl/equal_46/n3>, number of controlling flip flops: 2
+CE signal <u_axi4_ctrl/n412>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/n370>, number of controlling flip flops: 9
+CE signal <u_axi4_ctrl/n386>, number of controlling flip flops: 9
+CE signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 13
+CE signal <ceg_net3774>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 20
+CE signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/wr_en_int>, number of controlling flip flops: 9
+CE signal <ceg_net3781>, number of controlling flip flops: 1
+CE signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/rd_en_int>, number of controlling flip flops: 21
+CE signal <u_axi4_ctrl/n376>, number of controlling flip flops: 14
+CE signal <u_axi4_ctrl/n388>, number of controlling flip flops: 14
+CE signal <ceg_net3886>, number of controlling flip flops: 16
+CE signal <u_lcd_driver/equal_15/n23>, number of controlling flip flops: 12
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 28
+Total number of FFs with set/reset signals: 684
+SR signal <PllLocked[0]>, number of controlling flip flops: 310
+SR signal <U0_DDR_Reset/u_ddr_reset_sequencer/rstn_dly[1]>, number of controlling flip flops: 3
+SR signal <DdrCtrl_CFG_RST_N>, number of controlling flip flops: 23
+SR signal <u_FIFO_DATA_RECV/fifo_rst>, number of controlling flip flops: 4
+SR signal <u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 30
+SR signal <u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 41
+SR signal <u_interpolation/coefGen_1/n2514>, number of controlling flip flops: 1
+SR signal <u_interpolation/src/n11750>, number of controlling flip flops: 8
+SR signal <u_interpolation/src/n11749>, number of controlling flip flops: 1
+SR signal <database_0/equal_6/n5>, number of controlling flip flops: 1
+SR signal <database_0/n1369>, number of controlling flip flops: 1
+SR signal <database_0/n1404>, number of controlling flip flops: 1
+SR signal <database_0/n1373>, number of controlling flip flops: 1
+SR signal <database_0/n1111>, number of controlling flip flops: 1
+SR signal <Axi0ResetReg[2]>, number of controlling flip flops: 60
+SR signal <u_axi4_ctrl/n1476>, number of controlling flip flops: 4
+SR signal <u_axi4_ctrl/n1483>, number of controlling flip flops: 1
+SR signal <u_axi4_ctrl/wfifo_rst>, number of controlling flip flops: 4
+SR signal <u_axi4_ctrl/n1686>, number of controlling flip flops: 1
+SR signal <DdrCtrl_WVALID_0>, number of controlling flip flops: 9
+SR signal <DdrCtrl_RREADY_0>, number of controlling flip flops: 9
+SR signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 33
+SR signal <u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 41
+SR signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]>, number of controlling flip flops: 27
+SR signal <u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]>, number of controlling flip flops: 40
+SR signal <u_axi4_ctrl/n1623>, number of controlling flip flops: 1
+SR signal <u_axi4_ctrl/n1484>, number of controlling flip flops: 14
+SR signal <u_axi4_ctrl/n1485>, number of controlling flip flops: 14
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_701/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_701/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_97/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_102/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_103/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_97/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_102/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_95/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_97/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_103/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_102/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_95/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_103/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_108/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i8
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i8
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_95/i8
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i8
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_95/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i11
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i11
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i11
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i11
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_93/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_99/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_105/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_94/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_100/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_106/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_92/i19
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_96/i19
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_98/i19
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_101/i19
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_104/i19
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" removed instance : u_interpolation/coefGen_1/dff_107/i19
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1532)" representative instance : u_interpolation/coefGen_1/dff_92/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram0/i29
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i29
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram0/i147
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i147
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram1/i29
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i29
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram1/i147
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i147
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram1/i52
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram0/i52
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram2/i29
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i29
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram2/i147
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i147
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram2/i52
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram0/i52
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram3/i29
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i29
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram3/i147
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram4/i147
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram3/i52
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram0/i52
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" removed instance : database_0/data_ram4/i52
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v (40)" representative instance : database_0/data_ram0/i52
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_5/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_5/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_5/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_5/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_5/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_6/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_7/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i15
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i14
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i13
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i12
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i11
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i8
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i4
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" removed instance : u_axi4_ctrl/dff_10/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\axi4_ctrl.v (58)" representative instance : u_axi4_ctrl/dff_5/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_715/i5
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_717/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_717/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_717/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_715/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_717/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_718/i3
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_717/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_718/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_717/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_718/i1
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_717/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_670/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_670/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_676/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_676/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_682/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_682/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_688/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_688/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_694/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_694/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_700/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_700/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_670/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_670/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_676/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_676/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_682/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_682/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_688/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_688/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_694/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_694/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_700/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_700/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_670/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_670/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_676/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_676/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_682/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_682/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_688/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_688/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_694/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_694/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_700/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_700/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_669/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_669/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_675/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_675/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_681/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_681/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_687/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_687/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_693/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_693/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_699/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_699/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_669/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_669/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_675/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_675/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_681/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_681/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_687/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_687/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_693/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_693/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_699/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_699/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_669/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_669/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_675/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_675/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_681/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_681/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_687/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_687/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_693/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_693/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_699/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_699/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_668/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_668/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_674/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_674/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_680/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_680/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_686/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_686/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_692/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_692/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_698/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_698/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_668/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_668/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_674/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_674/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_680/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_680/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_686/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_686/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_692/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_692/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_698/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_698/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_668/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_668/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_674/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_674/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_680/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_680/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_686/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_686/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_692/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_692/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_698/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_698/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_667/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_667/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_673/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_673/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_679/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_679/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_685/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_685/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_691/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_691/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_697/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_697/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_667/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_667/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_673/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_673/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_679/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_679/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_685/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_685/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_691/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_691/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_697/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_697/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_667/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_667/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_673/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_673/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_679/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_679/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_685/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_685/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_691/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_691/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_697/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_697/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_666/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_666/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_672/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_672/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_678/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_678/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_684/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_684/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_690/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_690/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_696/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_696/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_666/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_666/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_672/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_672/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_678/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_678/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_684/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_684/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_690/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_690/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_696/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_696/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_666/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_666/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_672/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_672/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_678/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_678/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_684/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_684/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_690/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_690/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_696/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_696/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_665/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_665/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_671/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_671/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_677/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_677/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_683/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_683/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_689/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_689/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_695/i18
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_695/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_665/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_665/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_671/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_671/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_677/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_677/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_683/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_683/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_689/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_689/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_695/i16
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_695/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_665/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_665/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_671/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_671/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_677/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_677/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_683/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_683/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_689/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_689/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_695/i17
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_695/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" removed instance : u_VsyHsyGenerator/picture/dff_5367/i11
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" representative instance : u_VsyHsyGenerator/picture/dff_5367/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" removed instance : u_VsyHsyGenerator/picture/dff_5367/i10
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" representative instance : u_VsyHsyGenerator/picture/dff_5367/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" removed instance : u_VsyHsyGenerator/picture/dff_5367/i7
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" representative instance : u_VsyHsyGenerator/picture/dff_5367/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" removed instance : u_VsyHsyGenerator/picture/dff_5367/i9
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" representative instance : u_VsyHsyGenerator/picture/dff_5367/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" removed instance : u_VsyHsyGenerator/picture/dff_5367/i6
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\VsyHsyGenerator.v (8521)" representative instance : u_VsyHsyGenerator/picture/dff_5367/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" removed instance : u_interpolation/src/dff_715/i2
+@ "C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Source\ParallelSampleRateConversion.v (1200)" representative instance : u_interpolation/src/dff_706/i1
+FF Output: tri_ctrl_o/tri_level_reg[0](=0)
+FF Output: tri_ctrl_o/tri_level_reg[1](=0)
+FF Output: tri_ctrl_o/tri_level_reg[2](=0)
+FF Output: tri_ctrl_o/tri_level_reg[3](=0)
+FF Output: tri_ctrl_o/tri_level_reg[4](=0)
+FF Output: tri_ctrl_o/tri_level_reg[5](=0)
+FF Output: tri_ctrl_o/tri_level_reg[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_5[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_5[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_5[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_5[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_4[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_7[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[0](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_3[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_2[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_1[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_1[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_1[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_1[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_1[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_1[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_0[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_6[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_7[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_7[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_7[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_7[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_8[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_9[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_10[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_11[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_12[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_13[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_14[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_15[18](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[6](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_16[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[1](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[2](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[3](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[4](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[5](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[7](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[8](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[9](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[10](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[11](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[12](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[13](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[14](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[15](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[16](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[17](=0)
+FF Output: u_interpolation/coefGen_1/coefficientVec_0_17[18](=0)
+FF Output: intRate[0](=0)
+FF Output: u_interpolation/src/div2Domain_stateI_0[0](=0)
+FF Output: u_interpolation/src/div2Domain_decStateI_0[0](=0)
+FF Output: u_interpolation/src/div2Domain_decState2I_0[0](=0)
+FF Output: intRate[3](=0)
+FF Output: decRate[3](=0)
+FF Output: u_interpolation/src/div2Domain_stateI_0[1](=0)
+FF Output: u_interpolation/src/div2Domain_stateI_0[2](=0)
+FF Output: u_interpolation/src/div2Domain_stateI_0[3](=0)
+FF Output: u_interpolation/src/div2Domain_decStateI_0[1](=0)
+FF Output: u_interpolation/src/div2Domain_decStateI_0[2](=0)
+FF Output: u_interpolation/src/div2Domain_decStateI_0[3](=0)
+FF Output: u_interpolation/src/div2Domain_decState2I_0[1](=0)
+FF Output: u_interpolation/src/div2Domain_decState2I_0[2](=0)
+FF Output: u_interpolation/src/div2Domain_decState2I_0[3](=0)
+FF Output: DdrCtrl_ASIZE_0[0](=0)
+FF Output: DdrCtrl_ALOCK_0[0](=0)
+FF Output: DdrCtrl_AID_0[0](=0)
+FF Output: DdrCtrl_ASIZE_0[1](=0)
+FF Output: DdrCtrl_ALEN_0[6](=0)
+FF Output: DdrCtrl_ALEN_0[7](=0)
+FF Output: u_axi4_ctrl/awaddr[0](=0)
+FF Output: u_axi4_ctrl/araddr[0](=0)
+FF Output: DdrCtrl_AID_0[7](=0)
+FF Output: DdrCtrl_AID_0[6](=0)
+FF Output: DdrCtrl_AID_0[5](=0)
+FF Output: DdrCtrl_AID_0[4](=0)
+FF Output: DdrCtrl_AID_0[3](=0)
+FF Output: DdrCtrl_AID_0[2](=0)
+FF Output: DdrCtrl_AID_0[1](=0)
+FF Output: DdrCtrl_ALOCK_0[1](=0)
+FF Output: DdrCtrl_ABURST_0[1](=0)
+FF Output: u_axi4_ctrl/awaddr[1](=0)
+FF Output: u_axi4_ctrl/awaddr[2](=0)
+FF Output: u_axi4_ctrl/awaddr[3](=0)
+FF Output: u_axi4_ctrl/awaddr[4](=0)
+FF Output: u_axi4_ctrl/awaddr[5](=0)
+FF Output: u_axi4_ctrl/awaddr[6](=0)
+FF Output: u_axi4_ctrl/awaddr[7](=0)
+FF Output: u_axi4_ctrl/awaddr[8](=0)
+FF Output: u_axi4_ctrl/awaddr[9](=0)
+FF Output: u_axi4_ctrl/araddr[1](=0)
+FF Output: u_axi4_ctrl/araddr[2](=0)
+FF Output: u_axi4_ctrl/araddr[3](=0)
+FF Output: u_axi4_ctrl/araddr[4](=0)
+FF Output: u_axi4_ctrl/araddr[5](=0)
+FF Output: u_axi4_ctrl/araddr[6](=0)
+FF Output: u_axi4_ctrl/araddr[7](=0)
+FF Output: u_axi4_ctrl/araddr[8](=0)
+FF Output: u_axi4_ctrl/araddr[9](=0)
+FF Output: DdrCtrl_AADDR_0[26](=0)
+FF Output: DdrCtrl_AADDR_0[27](=0)
+FF Output: DdrCtrl_AADDR_0[28](=0)
+FF Output: DdrCtrl_AADDR_0[29](=0)
+FF Output: DdrCtrl_AADDR_0[30](=0)
+FF Output: DdrCtrl_AADDR_0[31](=0)
+FF Output: u_interpolation/src/div2Domain_state2I_0[3](=0)
+FF Output: u_interpolation/src/div2Domain_iRateTemp[3](=0)
+FF Output: DdrCtrl_AADDR_0[0](=0)
+FF Output: DdrCtrl_AADDR_0[1](=0)
+FF Output: DdrCtrl_AADDR_0[2](=0)
+FF Output: DdrCtrl_AADDR_0[3](=0)
+FF Output: DdrCtrl_AADDR_0[4](=0)
+FF Output: DdrCtrl_AADDR_0[5](=0)
+FF Output: DdrCtrl_AADDR_0[6](=0)
+FF Output: DdrCtrl_AADDR_0[7](=0)
+FF Output: DdrCtrl_AADDR_0[8](=0)
+FF Output: DdrCtrl_AADDR_0[9](=0)
+FF Output: u_interpolation/src/div2Domain_iRateDoubleTemp[4](=0)
+FF Output: u_VsyHsyGenerator/picture/colorInRam[7](=0)
+FF Output: tri_ctrl_o/tri_level_reg[7](=1)
+FF Output: database_0/state[2](=0)
+FF instance: u_FIFO_DATA_RECV/u_WAVE_BUF_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+FF instance: u_axi4_ctrl/u_W0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+FF instance: u_axi4_ctrl/u_R0_FIFO/u_efx_fifo_top/xefx_fifo_ctl/genblk1.init_set~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+OscilloscopeInterfaceTest:OscilloscopeInterfaceTest             2461(14)      630(8)    4028(12)    225(0)     12(0)
+ +U0_DDR_Reset:etx_ddr3_reset_controller                           26(0)       21(0)       11(0)      0(0)      0(0)
+  +u_ddr_reset_sequencer:ddr_reset_sequencer_f22535be44aa...      26(26)      21(21)      11(11)      0(0)      0(0)
+ +u_DDS:DdsModule                                                 19(19)      23(23)      86(86)      0(0)      0(0)
+ +tri_ctrl_o:tri_ctrl                                             85(85)        0(0)        8(8)      0(0)      0(0)
+ +u_FIFO_DATA_RECV:fifo_data_recv                                136(21)      41(11)      94(34)      1(0)      0(0)
+  +u_WAVE_BUF_FIFO:WAVE_BUF_FIFO                                  115(0)       30(0)       60(0)      1(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_41b5460d540e453c971e2e9b7...      115(4)       30(0)       60(1)      1(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_41b5460d540e453c971e2e9b7...        0(0)        0(0)        0(0)      1(1)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_41b5460d540e453c971e2e9b7...     111(71)      30(30)      59(23)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_41b5460d5...        0(0)        0(0)        9(9)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_41b5460d...      20(20)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_41b5460d5...        0(0)        0(0)        9(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41b54...        0(0)        0(0)        8(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41b5...        0(0)        0(0)        7(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41b...        0(0)        0(0)        6(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41...        0(0)        0(0)        5(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_4...        0(0)        0(0)        4(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        3(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        2(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_41b5460d54...        0(0)        0(0)        9(9)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_41b5460d5...      20(20)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_41b5460d54...        0(0)        0(0)        9(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41b54...        0(0)        0(0)        8(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41b5...        0(0)        0(0)        7(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41b...        0(0)        0(0)        6(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_41...        0(0)        0(0)        5(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_4...        0(0)        0(0)        4(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        3(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        2(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        1(1)      0(0)      0(0)
+ +u_key:KEY_2bit                                                   32(7)       19(0)       38(7)      0(0)      0(0)
+  +u_key_counter_scan:key_counter_scan(KEY_WIDTH=2)               25(25)      19(19)      31(31)      0(0)      0(0)
+ +u_interpolation:CoefGen_With_SRC                               1540(0)      367(0)     1729(0)      0(0)     12(0)
+  +coefGen_1:CoefGen                                              22(22)        0(0)    142(142)      0(0)      0(0)
+  +src:ParallelSampleRateConversion                           1518(1518)    367(367)  1587(1587)      0(0)    12(12)
+ +database_0:database                                           108(108)        0(0)    347(184)    200(0)      0(0)
+  +data_ram0:simple_dual_port_ram                                   0(0)        0(0)      30(30)    40(40)      0(0)
+  +data_ram1:simple_dual_port_ram                                   0(0)        0(0)      30(30)    40(40)      0(0)
+  +data_ram2:simple_dual_port_ram                                   0(0)        0(0)      32(32)    40(40)      0(0)
+  +data_ram3:simple_dual_port_ram                                   0(0)        0(0)      30(30)    40(40)      0(0)
+  +data_ram4:simple_dual_port_ram                                   0(0)        0(0)      41(41)    40(40)      0(0)
+ +u_VsyHsyGenerator:VsyHsyGenerator                               38(23)      26(20)  1445(1074)      0(0)      0(0)
+  +picture:PictureGenerator                                       15(10)        6(6)    371(334)      0(0)      0(0)
+   +rAddr:RAddressGen                                               5(5)        0(0)      37(37)      0(0)      0(0)
+ +u_axi4_ctrl:axi4_ctrl                                         439(214)     103(32)     196(78)     24(0)      0(0)
+  +u_W0_FIFO:W0_FIFO                                              118(0)       43(0)       59(0)     16(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_3e6a9a3a292f42bb82f2ab68b...      118(4)       43(0)       59(0)     16(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_3e6a9a3a292f42bb82f2ab68b...        0(0)        0(0)        0(0)    16(16)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_3e6a9a3a292f42bb82f2ab68b...     114(74)      43(43)      59(23)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_3e6a9a3a2...        0(0)        0(0)        9(9)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_3e6a9a3a...      20(20)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_3e6a9a3a2...        0(0)        0(0)        9(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e6a9...        0(0)        0(0)        8(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e6a...        0(0)        0(0)        7(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e6...        0(0)        0(0)        6(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e...        0(0)        0(0)        5(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        4(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        3(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        2(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_3e6a9a3a29...        0(0)        0(0)        9(9)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_3e6a9a3a2...      20(20)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_3e6a9a3a29...        0(0)        0(0)        9(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e6a9...        0(0)        0(0)        8(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e6a...        0(0)        0(0)        7(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e6...        0(0)        0(0)        6(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3e...        0(0)        0(0)        5(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_3...        0(0)        0(0)        4(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        3(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        2(1)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        1(1)      0(0)      0(0)
+  +u_R0_FIFO:R0_FIFO                                              107(0)       28(0)       59(0)      8(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_d3aef48d269341d8a19128109...      107(4)       28(0)       59(0)      8(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_d3aef48d269341d8a19128109...        0(0)        0(0)        0(0)      8(8)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_d3aef48d269341d8a19128109...     103(67)      28(28)      59(27)      0(0)      0(0)
+     +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_d3aef48d2...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_d3aef48d...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_d3aef48d2...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3aef...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3ae...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3a...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+     +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_d3aef48d26...        0(0)        0(0)        8(8)      0(0)      0(0)
+     +genblk7.wr2rd_addr_sync:efx_fifo_datasync_d3aef48d2...      18(18)        0(0)        0(0)      0(0)      0(0)
+     +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_d3aef48d26...        0(0)        0(0)        8(1)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3aef...        0(0)        0(0)        7(1)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3ae...        0(0)        0(0)        6(1)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3a...        0(0)        0(0)        5(1)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d3...        0(0)        0(0)        4(1)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_d...        0(0)        0(0)        3(1)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        2(1)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        1(1)      0(0)      0(0)
+ +u_lcd_driver:lcd_driver                                         24(24)      22(22)      62(62)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+      Clock     Flip-Flops   Memory Ports    Multipliers
+      -----     ----------   ------------    -----------
+ frame_pclk           1849            417             12
+    Axi_Clk            364             24              0
+    adc_clk            164              1              0
+ tx_slowclk             84              8              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. database_0/data_ram3/ram (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b02
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b012
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0b12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0c12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0d12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0e12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0f12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0g12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0h12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b0i1
+	EFX_RAM_5K: database_0/data_ram3/ram__D$032
+	EFX_RAM_5K: database_0/data_ram3/ram__D$0312
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03b12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03c12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03d12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03e12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03f12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03g12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03h12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$03i1
+	EFX_RAM_5K: database_0/data_ram3/ram__D$302
+	EFX_RAM_5K: database_0/data_ram3/ram__D$3012
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30b12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30c12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30d12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30e12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30f12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30g12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30h12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$30i1
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b32
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b312
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3b12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3c12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3d12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3e12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3f12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3g12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3h12
+	EFX_RAM_5K: database_0/data_ram3/ram__D$b3i1
+
+2. database_0/data_ram1/ram (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b02
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b012
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0b12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0c12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0d12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0e12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0f12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0g12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0h12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b0i1
+	EFX_RAM_5K: database_0/data_ram1/ram__D$032
+	EFX_RAM_5K: database_0/data_ram1/ram__D$0312
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03b12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03c12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03d12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03e12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03f12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03g12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03h12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$03i1
+	EFX_RAM_5K: database_0/data_ram1/ram__D$302
+	EFX_RAM_5K: database_0/data_ram1/ram__D$3012
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30b12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30c12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30d12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30e12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30f12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30g12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30h12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$30i1
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b32
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b312
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3b12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3c12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3d12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3e12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3f12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3g12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3h12
+	EFX_RAM_5K: database_0/data_ram1/ram__D$b3i1
+
+3. database_0/data_ram4/ram (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b02
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b012
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0b12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0c12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0d12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0e12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0f12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0g12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0h12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b0i1
+	EFX_RAM_5K: database_0/data_ram4/ram__D$032
+	EFX_RAM_5K: database_0/data_ram4/ram__D$0312
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03b12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03c12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03d12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03e12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03f12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03g12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03h12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$03i1
+	EFX_RAM_5K: database_0/data_ram4/ram__D$302
+	EFX_RAM_5K: database_0/data_ram4/ram__D$3012
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30b12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30c12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30d12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30e12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30f12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30g12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30h12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$30i1
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b32
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b312
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3b12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3c12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3d12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3e12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3f12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3g12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3h12
+	EFX_RAM_5K: database_0/data_ram4/ram__D$b3i1
+
+4. database_0/data_ram0/ram (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b02
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b012
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0b12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0c12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0d12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0e12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0f12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0g12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0h12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b0i1
+	EFX_RAM_5K: database_0/data_ram0/ram__D$032
+	EFX_RAM_5K: database_0/data_ram0/ram__D$0312
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03b12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03c12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03d12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03e12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03f12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03g12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03h12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$03i1
+	EFX_RAM_5K: database_0/data_ram0/ram__D$302
+	EFX_RAM_5K: database_0/data_ram0/ram__D$3012
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30b12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30c12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30d12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30e12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30f12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30g12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30h12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$30i1
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b32
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b312
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3b12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3c12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3d12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3e12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3f12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3g12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3h12
+	EFX_RAM_5K: database_0/data_ram0/ram__D$b3i1
+
+5. database_0/data_ram2/ram (C:\Users\jason\Desktop\FPGA competition\Elitestek_Oscilloscope-bram (1)\Elitestek_Oscilloscope-bram\Efinity\ram_rom_ip\simple_dual_port_ram\simple_dual_port_ram.v:19):
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b02
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b012
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0b12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0c12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0d12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0e12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0f12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0g12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0h12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b0i1
+	EFX_RAM_5K: database_0/data_ram2/ram__D$032
+	EFX_RAM_5K: database_0/data_ram2/ram__D$0312
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03b12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03c12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03d12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03e12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03f12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03g12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03h12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$03i1
+	EFX_RAM_5K: database_0/data_ram2/ram__D$302
+	EFX_RAM_5K: database_0/data_ram2/ram__D$3012
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30b12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30c12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30d12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30e12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30f12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30g12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30h12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$30i1
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b32
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b312
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3b12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3c12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3d12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3e12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3f12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3g12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3h12
+	EFX_RAM_5K: database_0/data_ram2/ram__D$b3i1
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T35F324
+project : OscilloscopeInterfaceTest
+project-xml : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/OscilloscopeInterfaceTest.xml
+root : OscilloscopeInterfaceTest
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/ip/etx_ddr3_reset_controller
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/ip/R0_FIFO
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/ip/W0_FIFO
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/ip/WAVE_BUF_FIFO
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/ip/WAVE_MAPPING_RAM
+I : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/ip/ADC_FIFO
+output-dir : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow
+work-dir : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/work_syn
+write-efx-verilog : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.map.v
+binary-db : C:/Users/jason/Desktop/FPGA competition/Elitestek_Oscilloscope-bram (1)/Elitestek_Oscilloscope-bram/Efinity/outflow/OscilloscopeInterfaceTest.vdb
+insert-ios : 0
+max-carry-cascade : 480
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+retiming : 0
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+fanout-limit : 100
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	162
+OUTPUT PORTS    : 	260
+
+EFX_ADD         : 	630
+EFX_LUT4        : 	4028
+   1-2  Inputs  : 	876
+   3    Inputs  : 	918
+   4    Inputs  : 	2234
+EFX_MULT        : 	12
+EFX_FF          : 	2461
+EFX_RAM_5K      : 	225
+EFX_GBUFCE      : 	4
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 28s
+Elapsed synthesis time : 28s

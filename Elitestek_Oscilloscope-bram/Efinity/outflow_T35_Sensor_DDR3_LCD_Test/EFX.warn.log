@@ -1,0 +1,293 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:05:33
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe1' remains unconnected for this instance (VERI-1927) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:111)
+[EFX-0011 VERI-WARNING] port 'probe1' remains unconnected for this instance (VERI-1927) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:145)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3614)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:07:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3577)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:5658)
+[EFX-0200 WARNING] Removing redundant signal : din[40]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4550)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4829)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4830)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:273)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:07:17
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[31]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[30]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[29]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[28]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[27]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[26]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[25]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[24]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[23]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[22]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[21]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[20]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[19]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[18]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[17]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[16]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[15]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[14]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[13]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[12]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:16:41
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3577)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:5658)
+[EFX-0200 WARNING] Removing redundant signal : din[40]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4550)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4829)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4830)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:273)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:16:54
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[31]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[30]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[29]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[28]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[27]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[26]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[25]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[24]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[23]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[22]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[21]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[20]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[19]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[18]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[17]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[16]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[15]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[14]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[13]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[12]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:24:27
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3577)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:5658)
+[EFX-0200 WARNING] Removing redundant signal : din[40]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4550)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4829)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4830)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:273)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:24:39
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[31]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[30]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[29]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[28]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[27]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[26]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[25]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[24]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[23]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[22]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[21]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[20]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[19]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[18]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[17]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[16]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[15]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[14]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[13]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[12]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:27:36
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe2' remains unconnected for this instance (VERI-1927) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:108)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3577)
+[EFX-0011 VERI-WARNING] input port 'probe2[0]' remains unconnected for this instance (VDB-1053) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:5658)
+[EFX-0200 WARNING] Removing redundant signal : din[40]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4550)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4829)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:4830)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1014)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1016)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1017)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1021)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:1032)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[1]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:3438)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:265)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:266)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:268)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:273)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe2[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe3[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe4[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe5[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe6[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe7[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe8[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe9[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe10[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe11[0]'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity/work_dbg/debug_top.v:86)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:27:49
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[31]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[30]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[29]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[28]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[27]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[26]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[25]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[24]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[23]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[22]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[21]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[20]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[19]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[18]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[17]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[16]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[15]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[14]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[13]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0200 WARNING] Removing redundant signal : genblk1.genblk1.genblk1.i[12]. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:774)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/W0_FIFO\W0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:82)

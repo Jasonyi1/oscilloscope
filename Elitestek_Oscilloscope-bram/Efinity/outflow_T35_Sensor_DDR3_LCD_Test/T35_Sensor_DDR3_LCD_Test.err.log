@@ -1,0 +1,546 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2022 11:53:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2022 11:59:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2022 12:39:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2022 12:42:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:48:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'ddr_calibration_defines.v' (SORT-1015) (D:\Efinity_Project\01_T35F324_Examples\07_AR0135_DDR3_LCD_Display\Source\T35_Sensor_DDR3_LCD_Test.v:6)
+[EFX-0010 VERI-ERROR] cannot open include file 'ddr_calibration_defines.v' (VERI-1245) (D:\Efinity_Project\01_T35F324_Examples\07_AR0135_DDR3_LCD_Display\Source\T35_Sensor_DDR3_LCD_Test.v:6)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\Efinity_Project\01_T35F324_Examples\07_AR0135_DDR3_LCD_Display\Source\T35_Sensor_DDR3_LCD_Test.v:379)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:49:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:50:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:51:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:53:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:55:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 19, 2023 23:58:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 20, 2023 00:00:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 20, 2023 00:11:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 12, 2023 18:57:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 12, 2023 18:58:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 12, 2023 18:59:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 14:00:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:03:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected non-printable character with the hex value '0xef' (VERI-2607) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:176)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:176)
+[EFX-0010 VERI-ERROR] 'cmos_fps_rate' is not declared (VERI-1128) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:164)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:270)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:03:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'cmos_fps_rate' is not declared (VERI-1128) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:164)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:270)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:04:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:07:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'input' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:13)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'input' used in incorrect context (VERI-2344) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:13)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:08:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:13:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:15:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:21:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:29:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:33:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:38:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 16:43:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:04:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:08:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:16:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:23:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:24:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:28:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:31:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:34:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:37:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:39:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:47:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:48:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:51:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2023 23:57:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:02:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:05:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:15:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:18:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:19:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:23:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:26:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:28:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:30:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:32:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:33:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:36:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] range index cannot contain 'x' or 'z' (VERI-1102) (D:/LearningMaterials/FPGA_Competition/VF-T35F324_Board_HDK_Info_V1.51/06_FPGA_Examples_Image/02_AR0135_DVP_DDR3_LVDS_1024600/Efinity\ip/R0_FIFO\R0_FIFO.v:705)
+[EFX-0021 ERROR] Verific elaboration of module 'T35_Sensor_DDR3_LCD_Test' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 00:40:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:28:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ',' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:251)
+[EFX-0010 VERI-ERROR] port connections cannot be mixed ordered and named (VERI-1162) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:251)
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:254)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:270)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:30:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:32:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:35:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'lcd_driver' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:234)
+[EFX-0010 VERI-ERROR] syntax error near '}' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:247)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:272)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:35:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:40:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:45:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:46:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:47:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:53:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '=' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:234)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:273)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:54:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '=' (VERI-1137) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:234)
+[EFX-0010 VERI-ERROR] module 'T35_Sensor_DDR3_LCD_Test' is ignored due to previous errors (VERI-1072) (D:\LearningMaterials\FPGA_Competition\VF-T35F324_Board_HDK_Info_V1.51\06_FPGA_Examples_Image\02_AR0135_DVP_DDR3_LVDS_1024600\Source\T35_Sensor_DDR3_LCD_Test.v:273)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:55:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 09:58:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:05:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:06:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:16:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:24:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:27:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:34:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:37:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:49:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:51:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 10:55:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:10:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:15:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:18:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:20:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:22:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:26:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:29:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 11:30:56
+///////////////////////////////////
+
